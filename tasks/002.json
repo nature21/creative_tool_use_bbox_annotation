@@ -1,132 +1,652 @@
 [
   {
-    "task_id": "cut/012",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/012.jpg",
+    "task_id": "peel/049",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/049.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "spatula",
+      "shovel",
+      "allen wrench",
+      "paintbrush",
+      "fork"
+    ],
+    "target": "onion"
+  },
+  {
+    "task_id": "stir/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/020.jpg",
+    "instruction": "stir the cocktail in the bowl",
+    "options": [
+      "shoe",
+      "grater",
+      "spatula",
+      "sock",
+      "ladle"
+    ],
+    "target": "cocktail in the bowl"
+  },
+  {
+    "task_id": "peel/015",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/015.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "coin",
+      "brush",
+      "toothbrush",
+      "scissors",
+      "bowl"
+    ],
+    "target": "onion"
+  },
+  {
+    "task_id": "peel/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/041.jpg",
+    "instruction": "peel the orange",
+    "options": [
+      "pan",
+      "spoon",
+      "saw",
+      "wallet",
+      "glassses"
+    ],
+    "target": "orange"
+  },
+  {
+    "task_id": "cut/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/045.jpg",
+    "instruction": "cut the cake",
+    "options": [
+      "hook",
+      "whisk",
+      "scissors",
+      "corkscrew",
+      "hair dryer"
+    ],
+    "target": "cake"
+  },
+  {
+    "task_id": "lift/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/012.jpg",
+    "instruction": "lift the basket with handle",
+    "options": [
+      "bowl",
+      "stapler",
+      "stick",
+      "tape measure",
+      "scissors"
+    ],
+    "target": "basket with handle"
+  },
+  {
+    "task_id": "stir/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/040.jpg",
+    "instruction": "stir the batter in the bowl",
+    "options": [
+      "fork",
+      "card",
+      "shovel",
+      "spray bottle",
+      "dustpan"
+    ],
+    "target": "batter in the bowl"
+  },
+  {
+    "task_id": "stir/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/009.jpg",
+    "instruction": "stir the batter in the pot",
+    "options": [
+      "tweezers",
+      "magnifying glass",
+      "knife",
+      "bowl",
+      "chopstick"
+    ],
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "sweep/018",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/018.jpg",
+    "instruction": "sweep the confetti",
+    "options": [
+      "shovel",
+      "mug",
+      "spatula",
+      "dustpan",
+      "strainer"
+    ],
+    "target": "confetti"
+  },
+  {
+    "task_id": "stir/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/035.jpg",
+    "instruction": "stir the soup in the pot",
+    "options": [
+      "toothbrush",
+      "spoon",
+      "paintbrush",
+      "cup",
+      "knife"
+    ],
+    "target": "soup in the pot"
+  },
+  {
+    "task_id": "pour/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/035.jpg",
+    "instruction": "pour the oil into the pot",
+    "options": [
+      "soap bar",
+      "hanger",
+      "teapot",
+      "measuring cup",
+      "pizza"
+    ],
+    "target": "pot"
+  },
+  {
+    "task_id": "pour/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/034.jpg",
+    "instruction": "pour the tea into the bowl",
+    "options": [
+      "oven mitt",
+      "scissors",
+      "apple",
+      "tongs",
+      "mug"
+    ],
+    "target": "bowl"
+  },
+  {
+    "task_id": "lift/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/013.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "pizza",
+      "hanger",
+      "watch",
+      "broom",
+      "plate"
+    ],
+    "target": "shopping bag"
+  },
+  {
+    "task_id": "cut/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/041.jpg",
+    "instruction": "cut the cake",
+    "options": [
+      "strainer",
+      "flashlight",
+      "credit card",
+      "spatula",
+      "fork"
+    ],
+    "target": "cake"
+  },
+  {
+    "task_id": "spread/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/017.jpg",
+    "instruction": "spread the jam on the pizza dough",
+    "options": [
+      "hammer",
+      "coin",
+      "book",
+      "candle",
+      "spatula"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "open/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/045.jpg",
+    "instruction": "open the paper box",
+    "options": [
+      "dustpan",
+      "perfume bottle",
+      "allen wrench",
+      "teeth",
+      "credit card"
+    ],
+    "target": "paper box"
+  },
+  {
+    "task_id": "stir/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/024.jpg",
+    "instruction": "stir the cocktail in the bowl",
+    "options": [
+      "spoon",
+      "tongs",
+      "keychain",
+      "book",
+      "perfume bottle"
+    ],
+    "target": "cocktail in the bowl"
+  },
+  {
+    "task_id": "sweep/029",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/029.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "knife",
+      "cardboard",
+      "hammer",
+      "sock",
+      "remote control"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "spread/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/013.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "stapler",
+      "nail clipper",
+      "keychain",
+      "spatula",
+      "wallet"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "spread/007",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/007.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "teapot",
+      "cup",
+      "stapler",
+      "tweezers",
+      "spatula"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "scoop/023",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/023.jpg",
+    "instruction": "scoop the soup from the cup",
+    "options": [
+      "pan",
+      "scissors",
+      "paperball",
+      "stapler",
+      "measuring cup"
+    ],
+    "target": "soup in the cup"
+  },
+  {
+    "task_id": "scoop/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/010.jpg",
+    "instruction": "scoop the flour from the bowl",
+    "options": [
+      "peeler",
+      "pencil",
+      "oven mitt",
+      "flashlight",
+      "bowl"
+    ],
+    "target": "flour in the bowl"
+  },
+  {
+    "task_id": "stir/021",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/021.jpg",
+    "instruction": "stir the paint in the bowl",
+    "options": [
+      "nail clipper",
+      "flashlight",
+      "tongs",
+      "broom",
+      "spatula"
+    ],
+    "target": "paint in the bowl"
+  },
+  {
+    "task_id": "cut/049",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/049.jpg",
+    "instruction": "cut the apple",
+    "options": [
+      "saw",
+      "screw",
+      "drill",
+      "belt",
+      "scissors"
+    ],
+    "target": "apple"
+  },
+  {
+    "task_id": "lift/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/002.jpg",
+    "instruction": "lift the basket",
+    "options": [
+      "screw",
+      "pencil",
+      "envelope",
+      "mug",
+      "whisk"
+    ],
+    "target": "basket"
+  },
+  {
+    "task_id": "pound/044",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/044.jpg",
+    "instruction": "pound the nuts",
+    "options": [
+      "sock",
+      "coffee pot",
+      "paperball",
+      "whisk",
+      "axe"
+    ],
+    "target": "nuts"
+  },
+  {
+    "task_id": "lift/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/035.jpg",
+    "instruction": "lift the basket with handle",
+    "options": [
+      "grater",
+      "screwdriver",
+      "tape measure",
+      "sponge",
+      "hat"
+    ],
+    "target": "basket with handle"
+  },
+  {
+    "task_id": "sweep/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/008.jpg",
+    "instruction": "sweep the sawdust",
+    "options": [
+      "hairbrush",
+      "shoe",
+      "pan",
+      "toothbrush",
+      "coin"
+    ],
+    "target": "sawdust"
+  },
+  {
+    "task_id": "pound/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/011.jpg",
+    "instruction": "pound the nuts",
+    "options": [
+      "keychain",
+      "paperball",
+      "stapler",
+      "magnifying glass",
+      "stone"
+    ],
+    "target": "nuts"
+  },
+  {
+    "task_id": "scoop/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/020.jpg",
+    "instruction": "scoop the rice from the pot",
+    "options": [
+      "stapler",
+      "card",
+      "teapot",
+      "glasses",
+      "shovel"
+    ],
+    "target": "rice in the pot"
+  },
+  {
+    "task_id": "peel/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/012.jpg",
+    "instruction": "peel the banana",
+    "options": [
+      "magnifying glass",
+      "utility knife",
+      "screw",
+      "toothbrush",
+      "comb"
+    ],
+    "target": "banana"
+  },
+  {
+    "task_id": "lift/016",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/016.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "remote control",
+      "flashlight",
+      "stapler",
+      "pliers",
+      "keychain"
+    ],
+    "target": "shopping bag"
+  },
+  {
+    "task_id": "sweep/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/020.jpg",
+    "instruction": "sweep the dirt",
+    "options": [
+      "paintbrush",
+      "razor",
+      "ruler",
+      "scissors",
+      "whisk"
+    ],
+    "target": "dirt"
+  },
+  {
+    "task_id": "stir/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/017.jpg",
+    "instruction": "stir the batter in the pot",
+    "options": [
+      "toothbrush",
+      "knife",
+      "utility knife",
+      "whisk",
+      "razor"
+    ],
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "stir/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/046.jpg",
+    "instruction": "stir the coffee in the pot",
+    "options": [
+      "teapot",
+      "hair dryer",
+      "floss container",
+      "razor",
+      "knife"
+    ],
+    "target": "coffee in the pot"
+  },
+  {
+    "task_id": "pour/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/024.jpg",
+    "instruction": "pour the water into the bowl",
+    "options": [
+      "plate",
+      "bucket",
+      "button",
+      "pizza",
+      "remote control"
+    ],
+    "target": "bowl"
+  },
+  {
+    "task_id": "lift/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/042.jpg",
+    "instruction": "lift the teapot",
+    "options": [
+      "sponge",
+      "spray bottle",
+      "screw",
+      "spatula",
+      "hanger"
+    ],
+    "target": "teapot"
+  },
+  {
+    "task_id": "scoop/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/046.jpg",
+    "instruction": "scoop the water from the bowl",
+    "options": [
+      "spray bottle",
+      "peeler",
+      "mug",
+      "envelope",
+      "loofah"
+    ],
+    "target": "water in the bowl"
+  },
+  {
+    "task_id": "open/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/002.jpg",
+    "instruction": "open the can",
+    "options": [
+      "remote control",
+      "perfume bottle",
+      "strainer",
+      "knife",
+      "moth"
+    ],
+    "target": "can"
+  },
+  {
+    "task_id": "peel/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/026.jpg",
+    "instruction": "peel the potato",
+    "options": [
+      "magnifying glass",
+      "coin",
+      "mallet",
+      "comb",
+      "screw"
+    ],
+    "target": "potato"
+  },
+  {
+    "task_id": "cut/001",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/001.jpg",
     "instruction": "cut the pizza",
     "options": [
-      "screwdriver",
-      "floss container",
-      "saw",
-      "allen wrench",
-      "card"
+      "mallet",
+      "envelope",
+      "loofah",
+      "shovel",
+      "teapot"
     ],
     "target": "pizza"
   },
   {
-    "task_id": "spread/019",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/019.jpg",
-    "instruction": "spread the frosting on the toast",
+    "task_id": "lift/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/041.jpg",
+    "instruction": "lift the padlock",
     "options": [
-      "wallet",
-      "donut",
       "bowl",
-      "measuring cup",
+      "belt",
+      "pencil",
+      "slipper",
+      "screwdriver"
+    ],
+    "target": "padlock"
+  },
+  {
+    "task_id": "stir/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/045.jpg",
+    "instruction": "stir the batter in the pot",
+    "options": [
+      "pan",
+      "drill",
+      "ladle",
+      "fork",
+      "hook"
+    ],
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "sweep/006",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/006.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "shoe",
+      "wrench",
+      "slipper",
+      "toothbrush",
+      "bowl"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "spread/037",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/037.jpg",
+    "instruction": "spread the butter on the toast",
+    "options": [
+      "magnifying glass",
+      "sponge",
+      "book",
+      "pencil",
       "creditcard"
     ],
     "target": "toast"
   },
   {
-    "task_id": "scoop/011",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/011.jpg",
-    "instruction": "scoop the water from the bowl",
+    "task_id": "spread/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/025.jpg",
+    "instruction": "spread the butter on the toast",
+    "options": [
+      "ruler",
+      "spray bottle",
+      "grater",
+      "sponge",
+      "envelope"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "cut/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/025.jpg",
+    "instruction": "cut the carrot",
     "options": [
       "ladle",
-      "remote control",
-      "mug",
-      "knife",
-      "spoon"
+      "brush",
+      "measuring cup",
+      "card",
+      "clothespin"
     ],
-    "target": "water in the bowl"
+    "target": "carrot"
   },
   {
-    "task_id": "peel/043",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/043.jpg",
-    "instruction": "peel the ginger",
+    "task_id": "pound/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/042.jpg",
+    "instruction": "pound the button",
     "options": [
-      "pizza",
-      "spray bottle",
-      "axe",
-      "pencil",
-      "loofah"
+      "pliers",
+      "wallet",
+      "paperball",
+      "loofah",
+      "toothbrush"
     ],
-    "target": "ginger"
+    "target": "button"
   },
   {
-    "task_id": "peel/024",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/024.jpg",
-    "instruction": "peel the ginger",
-    "options": [
-      "hat",
-      "paintbrush",
-      "peeler",
-      "fork",
-      "magnifying glass"
-    ],
-    "target": "ginger"
-  },
-  {
-    "task_id": "peel/039",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/039.jpg",
-    "instruction": "peel the potato",
-    "options": [
-      "hair dryer",
-      "fork",
-      "hairbrush",
-      "rolling pin",
-      "book"
-    ],
-    "target": "potato"
-  },
-  {
-    "task_id": "sweep/021",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/021.jpg",
-    "instruction": "sweep the broken glass",
-    "options": [
-      "envelope",
-      "peeler",
-      "pencil",
-      "screwdriver",
-      "dustpan"
-    ],
-    "target": "broken glass"
-  },
-  {
-    "task_id": "peel/034",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/034.jpg",
-    "instruction": "peel the onion",
+    "task_id": "pour/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/013.jpg",
+    "instruction": "pour the juice into the cup",
     "options": [
       "wrench",
-      "pizza",
-      "perfume bottle",
-      "saw",
-      "oven mitt"
+      "oven mitt",
+      "pan",
+      "bucket",
+      "floss container"
     ],
-    "target": "onion"
+    "target": "cup"
   },
   {
-    "task_id": "open/014",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/014.jpg",
-    "instruction": "open the box",
+    "task_id": "sweep/007",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/007.jpg",
+    "instruction": "sweep the confetti",
     "options": [
-      "pizza",
-      "teeth",
-      "sponge",
-      "utility knife",
-      "glasses"
+      "stapler",
+      "credit card",
+      "coin",
+      "coffee pot",
+      "belt"
     ],
-    "target": "box"
-  },
-  {
-    "task_id": "scoop/017",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/017.jpg",
-    "instruction": "scoop the sause from the cup",
-    "options": [
-      "axe",
-      "envelope",
-      "shoe",
-      "tape measure",
-      "ladle"
-    ],
-    "target": "sause in the cup"
+    "target": "confetti"
   }
 ]

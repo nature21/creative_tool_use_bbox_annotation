@@ -200,7 +200,6 @@
   }
 
   function drawBBox(p1Nat, p2Nat) {
-    // Normalize to top-left/bottom-right in natural coords
     const x1 = Math.min(p1Nat.x, p2Nat.x);
     const y1 = Math.min(p1Nat.y, p2Nat.y);
     const x2 = Math.max(p1Nat.x, p2Nat.x);
@@ -299,7 +298,7 @@
     if (!url) { setError(`Missing image_url for ${currentTrialId(it, idx)}`); return; }
 
     // Reset hint
-    document.getElementById("hintText").textContent = "Click top-left, then bottom-right.";
+    document.getElementById("hintText").textContent = "Click the first corner of the bounding box.";
     document.getElementById("btnNext").disabled = true;
 
     // Load saved bbox for this trial (if any)
@@ -335,7 +334,7 @@
     p1 = null; p2 = null;
     redraw();
     document.getElementById("btnNext").disabled = true;
-    document.getElementById("hintText").textContent = "Click top-left, then bottom-right.";
+    document.getElementById("hintText").textContent = "Click the first corner of the bounding box.";
   }
 
   // Click handling on canvas
@@ -354,7 +353,7 @@
 
     if (!p1) {
       p1 = pt;
-      document.getElementById("hintText").textContent = "Now click the bottom-right corner.";
+      document.getElementById("hintText").textContent = "Now click the diagonal corner.";
     } else if (!p2) {
       p2 = pt;
       document.getElementById("hintText").textContent = "Bounding box set. You can edit by Reset.";
@@ -364,7 +363,7 @@
       p1 = pt;
       p2 = null;
       document.getElementById("btnNext").disabled = true;
-      document.getElementById("hintText").textContent = "Now click the bottom-right corner.";
+      document.getElementById("hintText").textContent = "Now click the diagonal corner.";
     }
 
     redraw();
