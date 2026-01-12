@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bounding Box Annotation</title>
+  <style>
+    :root { --maxw: 980px; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 24px; color: #111; background: #fff; }
+    .container { max-width: var(--maxw); margin: 0 auto; }
+    .card { border: 1px solid #e6e6e6; border-radius: 16px; padding: 18px; box-shadow: 0 1px 10px rgba(0,0,0,0.04); background: #fff; }
+    .row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .pill { display:inline-block; padding: 3px 10px; border:1px solid #ddd; border-radius: 999px; font-size: 12px; color:#444; background:#fafafa; }
+    .muted { color: #666; font-size: 14px; line-height: 1.45; }
+    .danger { color: #b00020; }
+    .spacer { height: 12px; }
+    h2 { margin: 0 0 6px 0; }
+    h3 { margin: 0 0 8px 0; font-size: 18px; }
+    .instruction { margin-top: 10px; font-size: 16px; font-weight: 650; }
+
+    .canvasWrap { margin-top: 10px; }
+    canvas { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 14px; background:#f7f7f7; display:block; }
+
+    button { padding: 10px 14px; border-radius: 14px; border: 1px solid #ccc; background: #fff; cursor: pointer; }
+    button.primary { border-color: #111; background: #111; color: #fff; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .hidden { display: none; }
+    code { background:#f6f6f6; padding: 2px 6px; border-radius: 10px; }
+    a { color: inherit; }
+    .small { font-size: 12px; }
+  </style>
+</head>
+
+<body>
+<div class="container">
+  <h2>Bounding Box Annotation</h2>
+  <p class="muted">
+    For each image, click <b>two points</b> to define a bounding box:
+    first click = <b>top-left</b>, second click = <b>bottom-right</b>.
+    You can use <b>Reset</b> to redo the box.
+  </p>
+
+  <div class="row">
+    <span class="pill" id="metaPill">Loading…</span>
+    <span class="pill" id="progressPill">–</span>
+    <span class="pill" id="trialIdPill">–</span>
+  </div>
+
+  <div class="spacer"></div>
+
+  <!-- Consent -->
+  <div id="screenConsent" class="card">
+    <h3>Consent</h3>
+    <p class="muted">
+      By clicking <b>I agree</b>, you confirm you are at least 18 years old and consent to participate in this research study.
+      You may stop at any time by closing the tab. Your responses will be recorded anonymously.
+    </p>
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="btnAgree" class="primary">I agree</button>
+      <button id="btnDecline">I do not agree</button>
+    </div>
+    <p class="muted danger hidden" id="consentErr"></p>
+  </div>
+
+  <!-- Main Task -->
+  <div id="screenTask" class="card hidden">
+    <div class="canvasWrap">
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="instruction" id="instructionText">Instruction</div>
+
+    <div class="spacer"></div>
+    <div class="row">
+      <button id="btnReset">Reset</button>
+      <button id="btnPrev">Previous</button>
+      <button id="btnNext" class="primary">Next</button>
+      <span class="muted" id="hintText"></span>
+    </div>
+
+    <div class="spacer"></div>
+    <p class="muted small">
+      Loaded batch file: <code id="taskFileCode">–</code>
+    </p>
+  </div>
+
+  <!-- Done -->
+  <div id="screenDone" class="card hidden">
+    <h3>Submitted</h3>
+    <p class="muted">Thank you! Redirecting you back to Prolific…</p>
+    <p class="muted">
+      If you are not redirected automatically, click:
+      <a id="prolificLink" href="#">Return to Prolific</a>
+    </p>
+  </div>
+
+  <!-- Error -->
+  <div id="screenError" class="card hidden">
+    <h3>Something went wrong</h3>
+    <p class="muted danger" id="errMsg"></p>
+  </div>
+</div>
+
+<script src="./config.js"></script>
+
+<script>
+  // ---------- Helpers ----------
+  function qs(name) { return new URLSearchParams(window.location.search).get(name) || ""; }
+  function show(id) { document.getElementById(id).classList.remove("hidden"); }
+  function hide(id) { document.getElementById(id).classList.add("hidden"); }
+  function setError(msg) {
+    hide("screenConsent"); hide("screenTask"); hide("screenDone");
+    document.getElementById("errMsg").textContent = msg;
+    show("screenError");
+  }
+
+  // ---------- URL params ----------
+  const prolific_pid = qs("PROLIFIC_PID");
+  const study_id     = qs("STUDY_ID");
+  const session_id   = qs("SESSION_ID");
+
+  const batch = qs("task") || "001";
+  const taskFile = `tasks/${batch}.json`;
+  document.getElementById("taskFileCode").textContent = taskFile;
+
+  const completionFromQuery = qs("completion");
+  const cc = qs("cc");
+  const completionUrl =
+    completionFromQuery ||
+    (cc ? `https://app.prolific.com/submissions/complete?cc=${encodeURIComponent(cc)}` : "") ||
+    (window.APP_CONFIG && window.APP_CONFIG.PROLIFIC_COMPLETION_URL) ||
+    "";
+
+  document.getElementById("metaPill").textContent = `batch=${batch} | PID=${prolific_pid || "NA"}`;
+
+  // ---------- Canvas drawing ----------
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
+
+  let img = new Image();
+  img.crossOrigin = "anonymous"; // helpful if your image host allows it (raw.githubusercontent.com typically does)
+
+  // Canvas rendering state
+  let dpr = window.devicePixelRatio || 1;
+  let scale = 1;                 // display pixels per natural pixel
+  let drawW = 0, drawH = 0;      // canvas CSS/display size (in CSS px)
+  let naturalW = 0, naturalH = 0;
+
+  // Click state for current trial (natural pixel coordinates)
+  let p1 = null; // {x,y} in natural pixels
+  let p2 = null;
+
+  function currentTrialId(it, idx) {
+    if (it && it.task_id) return String(it.task_id);
+    return `trial_${idx + 1}`;
+  }
+
+  function setCanvasToFitImage() {
+    // Fit canvas to container width, keep aspect ratio
+    const containerWidth = canvas.clientWidth || canvas.parentElement.clientWidth || 800;
+    if (!naturalW || !naturalH) return;
+
+    // Compute CSS size
+    drawW = containerWidth;
+    drawH = Math.round(containerWidth * (naturalH / naturalW));
+
+    // Set actual pixel size (for crisp rendering)
+    canvas.width = Math.round(drawW * dpr);
+    canvas.height = Math.round(drawH * dpr);
+    canvas.style.height = `${drawH}px`;
+
+    // Scale factor: CSS px per natural px
+    scale = drawW / naturalW;
+
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); // draw in CSS px coordinates
+  }
+
+  function natToCss(pt) {
+    // natural pixels -> CSS pixels
+    return { x: pt.x * scale, y: pt.y * scale };
+  }
+
+  function cssToNat(xCss, yCss) {
+    // CSS pixels -> natural pixels
+    return { x: xCss / scale, y: yCss / scale };
+  }
+
+  function clamp(v, lo, hi) { return Math.max(lo, Math.min(hi, v)); }
+
+  function drawPoint(ptCss) {
+    const r = 5;
+    ctx.beginPath();
+    ctx.arc(ptCss.x, ptCss.y, r, 0, Math.PI * 2);
+    ctx.fillStyle = "rgba(255, 0, 0, 0.9)";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "rgba(255, 255, 255, 0.9)";
+    ctx.stroke();
+  }
+
+  function drawBBox(p1Nat, p2Nat) {
+    // Normalize to top-left/bottom-right in natural coords
+    const x1 = Math.min(p1Nat.x, p2Nat.x);
+    const y1 = Math.min(p1Nat.y, p2Nat.y);
+    const x2 = Math.max(p1Nat.x, p2Nat.x);
+    const y2 = Math.max(p1Nat.y, p2Nat.y);
+
+    const a = natToCss({x: x1, y: y1});
+    const b = natToCss({x: x2, y: y2});
+
+    const w = b.x - a.x;
+    const h = b.y - a.y;
+
+    // translucent fill
+    ctx.fillStyle = "rgba(0, 128, 255, 0.15)";
+    ctx.fillRect(a.x, a.y, w, h);
+
+    // border
+    ctx.lineWidth = 3;
+    ctx.strokeStyle = "rgba(0, 128, 255, 0.95)";
+    ctx.strokeRect(a.x, a.y, w, h);
+  }
+
+  function redraw() {
+    if (!naturalW || !naturalH) return;
+    setCanvasToFitImage();
+
+    // Clear
+    ctx.clearRect(0, 0, drawW, drawH);
+
+    // Draw image to fit canvas CSS size
+    ctx.drawImage(img, 0, 0, drawW, drawH);
+
+    // Draw points/box if present
+    if (p1) drawPoint(natToCss(p1));
+    if (p2) drawPoint(natToCss(p2));
+    if (p1 && p2) drawBBox(p1, p2);
+  }
+
+  function getNormalizedBBox(p1Nat, p2Nat) {
+    const x1 = Math.min(p1Nat.x, p2Nat.x);
+    const y1 = Math.min(p1Nat.y, p2Nat.y);
+    const x2 = Math.max(p1Nat.x, p2Nat.x);
+    const y2 = Math.max(p1Nat.y, p2Nat.y);
+
+    // Clamp to image bounds
+    const cx1 = clamp(x1, 0, naturalW);
+    const cy1 = clamp(y1, 0, naturalH);
+    const cx2 = clamp(x2, 0, naturalW);
+    const cy2 = clamp(y2, 0, naturalH);
+
+    const nx1 = cx1 / naturalW;
+    const ny1 = cy1 / naturalH;
+    const nx2 = cx2 / naturalW;
+    const ny2 = cy2 / naturalH;
+
+    return {
+      // normalized [0,1]
+      x1: nx1, y1: ny1, x2: nx2, y2: ny2,
+      // also store pixel coords in natural resolution for convenience
+      x1_px: cx1, y1_px: cy1, x2_px: cx2, y2_px: cy2,
+      w_px: cx2 - cx1, h_px: cy2 - cy1,
+      image_w: naturalW, image_h: naturalH
+    };
+  }
+
+  // ---------- Experiment state ----------
+  let items = [];
+  let idx = 0;
+  let trialStart = performance.now();
+
+  // One response per trial index:
+  // { trial_index, task_id, bbox: {x1,y1,x2,y2,...}, rt_ms }
+  const responses = [];
+
+  function loadSavedForIndex(i) {
+    const saved = responses[i];
+    if (!saved || !saved.bbox) {
+      p1 = null; p2 = null;
+      return;
+    }
+    // Reconstruct points from saved bbox pixel coords (natural)
+    p1 = { x: saved.bbox.x1_px, y: saved.bbox.y1_px };
+    p2 = { x: saved.bbox.x2_px, y: saved.bbox.y2_px };
+  }
+
+  async function render() {
+    const it = items[idx];
+    document.getElementById("progressPill").textContent = `Progress: ${idx + 1}/${items.length}`;
+    document.getElementById("trialIdPill").textContent = `Trial: ${currentTrialId(it, idx)}`;
+    document.getElementById("instructionText").textContent = it?.instruction ? String(it.instruction) : "Instruction";
+
+    document.getElementById("btnPrev").disabled = (idx === 0);
+    document.getElementById("btnNext").textContent = (idx === items.length - 1) ? "Submit" : "Next";
+
+    // Load image
+    const url = it?.image_url ? String(it.image_url) : "";
+    if (!url) { setError(`Missing image_url for ${currentTrialId(it, idx)}`); return; }
+
+    // Reset hint
+    document.getElementById("hintText").textContent = "Click top-left, then bottom-right.";
+    document.getElementById("btnNext").disabled = true;
+
+    // Load saved bbox for this trial (if any)
+    p1 = null; p2 = null;
+    loadSavedForIndex(idx);
+
+    await new Promise((resolve, reject) => {
+      img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        naturalW = img.naturalWidth;
+        naturalH = img.naturalHeight;
+        dpr = window.devicePixelRatio || 1;
+        redraw();
+        resolve();
+      };
+      img.onerror = () => reject(new Error(`Failed to load image: ${url}`));
+      img.src = url;
+    });
+
+    // If we had saved bbox, show it and allow Next immediately
+    if (p1 && p2) {
+      redraw();
+      document.getElementById("hintText").textContent = "Bounding box loaded. You can edit by Reset.";
+      document.getElementById("btnNext").disabled = false;
+    }
+
+    // Reset RT timer
+    trialStart = performance.now();
+  }
+
+  function clearBox() {
+    p1 = null; p2 = null;
+    redraw();
+    document.getElementById("btnNext").disabled = true;
+    document.getElementById("hintText").textContent = "Click top-left, then bottom-right.";
+  }
+
+  // Click handling on canvas
+  canvas.addEventListener("click", (ev) => {
+    // Must have an image loaded
+    if (!naturalW || !naturalH) return;
+
+    const rect = canvas.getBoundingClientRect();
+    const xCss = ev.clientX - rect.left;
+    const yCss = ev.clientY - rect.top;
+
+    // Convert to natural pixel coordinates
+    let pt = cssToNat(xCss, yCss);
+    pt.x = clamp(pt.x, 0, naturalW);
+    pt.y = clamp(pt.y, 0, naturalH);
+
+    if (!p1) {
+      p1 = pt;
+      document.getElementById("hintText").textContent = "Now click the bottom-right corner.";
+    } else if (!p2) {
+      p2 = pt;
+      document.getElementById("hintText").textContent = "Bounding box set. You can edit by Reset.";
+      document.getElementById("btnNext").disabled = false;
+    } else {
+      // If already have two points, start over with new p1
+      p1 = pt;
+      p2 = null;
+      document.getElementById("btnNext").disabled = true;
+      document.getElementById("hintText").textContent = "Now click the bottom-right corner.";
+    }
+
+    redraw();
+  });
+
+  // Redraw on resize (keeps bbox aligned)
+  window.addEventListener("resize", () => {
+    if (!naturalW || !naturalH) return;
+    redraw();
+  });
+
+  async function submitAll() {
+    // Validate all trials have bbox
+    for (let i = 0; i < items.length; i++) {
+      if (!responses[i] || !responses[i].bbox) {
+        setError(`You have unanswered items (missing bounding box) at item ${i + 1}.`);
+        return;
+      }
+    }
+    if (!window.APP_CONFIG || !window.APP_CONFIG.GAS_URL) {
+      setError("Missing GAS_URL. Please configure config.js.");
+      return;
+    }
+    if (!completionUrl) {
+      setError("Missing Prolific completion URL. Set it in config.js or pass ?cc=XXXXXX.");
+      return;
+    }
+
+    hide("screenTask");
+    show("screenDone");
+    document.getElementById("prolificLink").href = completionUrl;
+
+    const payload = {
+      prolific_pid,
+      study_id,
+      session_id,
+      batch,
+      task_type: "bbox_click2",
+      responses,
+      user_agent: navigator.userAgent,
+      page_url: window.location.href
+    };
+
+    try {
+      // For GitHub Pages, use no-cors + text/plain to avoid CORS issues with Apps Script.
+      await fetch(window.APP_CONFIG.GAS_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(payload)
+      });
+
+      await new Promise(r => setTimeout(r, 800));
+      window.location.href = completionUrl;
+    } catch (e) {
+      console.warn(e);
+      // Still allow manual return
+    }
+  }
+
+  // ---------- Buttons ----------
+  document.getElementById("btnAgree").addEventListener("click", async () => {
+    hide("screenConsent");
+    show("screenTask");
+    try { await render(); } catch (e) { setError(String(e)); }
+  });
+
+  document.getElementById("btnDecline").addEventListener("click", () => {
+    const el = document.getElementById("consentErr");
+    el.textContent = "You chose not to consent. Please close this page and return the study on Prolific.";
+    el.classList.remove("hidden");
+  });
+
+  document.getElementById("btnReset").addEventListener("click", () => {
+    // Also clear saved response for this trial
+    responses[idx] = null;
+    clearBox();
+  });
+
+  document.getElementById("btnPrev").addEventListener("click", async () => {
+    if (idx <= 0) return;
+    idx--;
+    try { await render(); } catch (e) { setError(String(e)); }
+  });
+
+  document.getElementById("btnNext").addEventListener("click", async () => {
+    const it = items[idx];
+
+    // Require bbox set for current trial
+    if (!p1 || !p2) {
+      document.getElementById("hintText").textContent = "Please click two points to set a bounding box.";
+      return;
+    }
+
+    // Save current response
+    const rt = Math.round(performance.now() - trialStart);
+    const bbox = getNormalizedBBox(p1, p2);
+
+    responses[idx] = {
+      trial_index: idx,
+      task_id: currentTrialId(it, idx),
+      bbox,
+      rt_ms: rt
+    };
+
+    if (idx === items.length - 1) {
+      await submitAll();
+      return;
+    }
+
+    idx++;
+    try { await render(); } catch (e) { setError(String(e)); }
+  });
+
+  // ---------- Init (load tasks/batch file) ----------
+  (async function init() {
+    try {
+      const res = await fetch(taskFile, { cache: "no-store" });
+      if (!res.ok) throw new Error(`Failed to load ${taskFile} (HTTP ${res.status})`);
+
+      items = await res.json();
+      if (!Array.isArray(items) || items.length === 0) {
+        throw new Error(`Invalid task file: ${taskFile} must be a non-empty JSON array.`);
+      }
+    } catch (e) {
+      setError(String(e));
+    }
+  })();
+</script>
+</body>
+</html>
