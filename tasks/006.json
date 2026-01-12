@@ -1,70 +1,5 @@
 [
   {
-    "task_id": "lift/038",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/038.jpg",
-    "instruction": "lift the basket",
-    "options": [
-      "pliers",
-      "ladle",
-      "sponge",
-      "keychain",
-      "tongs"
-    ],
-    "target": "basket"
-  },
-  {
-    "task_id": "lift/046",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/046.jpg",
-    "instruction": "lift the shopping bag",
-    "options": [
-      "pizza",
-      "axe",
-      "ladle",
-      "stick",
-      "button"
-    ],
-    "target": "shopping bag"
-  },
-  {
-    "task_id": "stir/039",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/039.jpg",
-    "instruction": "stir the coffee in the bowl",
-    "options": [
-      "sponge",
-      "button",
-      "calculator",
-      "ruler",
-      "knife"
-    ],
-    "target": "coffee in the bowl"
-  },
-  {
-    "task_id": "scoop/003",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/003.jpg",
-    "instruction": "scoop the rice from the pot",
-    "options": [
-      "glasses",
-      "level",
-      "candle",
-      "measuring cup",
-      "nail clipper"
-    ],
-    "target": "rice in the pot"
-  },
-  {
-    "task_id": "lift/000",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/000.jpg",
-    "instruction": "lift the shopping bag",
-    "options": [
-      "razor",
-      "saw",
-      "axe",
-      "belt",
-      "candle"
-    ],
-    "target": "shopping bag"
-  },
-  {
     "task_id": "peel/049",
     "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/049.jpg",
     "instruction": "peel the onion",
@@ -78,55 +13,120 @@
     "target": "onion"
   },
   {
-    "task_id": "pour/047",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/047.jpg",
-    "instruction": "pour the water into the cup",
+    "task_id": "stir/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/020.jpg",
+    "instruction": "stir the cocktail in the bowl",
+    "options": [
+      "shoe",
+      "grater",
+      "spatula",
+      "sock",
+      "ladle"
+    ],
+    "target": "cocktail in the bowl"
+  },
+  {
+    "task_id": "peel/015",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/015.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "coin",
+      "brush",
+      "toothbrush",
+      "scissors",
+      "bowl"
+    ],
+    "target": "onion"
+  },
+  {
+    "task_id": "peel/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/041.jpg",
+    "instruction": "peel the orange",
+    "options": [
+      "pan",
+      "spoon",
+      "saw",
+      "wallet",
+      "glassses"
+    ],
+    "target": "orange"
+  },
+  {
+    "task_id": "cut/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/045.jpg",
+    "instruction": "cut the cake",
+    "options": [
+      "hook",
+      "whisk",
+      "scissors",
+      "corkscrew",
+      "hair dryer"
+    ],
+    "target": "cake"
+  },
+  {
+    "task_id": "lift/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/012.jpg",
+    "instruction": "lift the basket with handle",
+    "options": [
+      "bowl",
+      "stapler",
+      "stick",
+      "tape measure",
+      "scissors"
+    ],
+    "target": "basket with handle"
+  },
+  {
+    "task_id": "stir/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/040.jpg",
+    "instruction": "stir the batter in the bowl",
+    "options": [
+      "fork",
+      "card",
+      "shovel",
+      "spray bottle",
+      "dustpan"
+    ],
+    "target": "batter in the bowl"
+  },
+  {
+    "task_id": "stir/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/009.jpg",
+    "instruction": "stir the batter in the pot",
     "options": [
       "tweezers",
-      "card",
-      "sponge",
-      "teapot",
-      "allen wrench"
-    ],
-    "target": "cup"
-  },
-  {
-    "task_id": "open/031",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/031.jpg",
-    "instruction": "open the paper box",
-    "options": [
-      "sponge",
-      "drill",
-      "pliers",
-      "oven mitt",
-      "screw"
-    ],
-    "target": "paper box"
-  },
-  {
-    "task_id": "open/020",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/020.jpg",
-    "instruction": "open the walnut",
-    "options": [
-      "scissors",
-      "mallet",
-      "mug",
-      "peeler",
-      "rolling pin"
-    ],
-    "target": "walnut"
-  },
-  {
-    "task_id": "spread/008",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/008.jpg",
-    "instruction": "spread the butter on the toast",
-    "options": [
-      "hair dryer",
-      "watch",
+      "magnifying glass",
       "knife",
-      "coffee pot",
-      "spoon"
+      "bowl",
+      "chopstick"
     ],
-    "target": "toast"
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "sweep/018",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/018.jpg",
+    "instruction": "sweep the confetti",
+    "options": [
+      "shovel",
+      "mug",
+      "spatula",
+      "dustpan",
+      "strainer"
+    ],
+    "target": "confetti"
+  },
+  {
+    "task_id": "stir/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/035.jpg",
+    "instruction": "stir the soup in the pot",
+    "options": [
+      "toothbrush",
+      "spoon",
+      "paintbrush",
+      "cup",
+      "knife"
+    ],
+    "target": "soup in the pot"
   }
 ]

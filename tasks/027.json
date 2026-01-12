@@ -1,5 +1,83 @@
 [
   {
+    "task_id": "sweep/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/010.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "pizza",
+      "book",
+      "broom",
+      "soap bar",
+      "coffee pot"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "peel/033",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/033.jpg",
+    "instruction": "peel the banana",
+    "options": [
+      "saw",
+      "button",
+      "pizza",
+      "plate",
+      "ladle"
+    ],
+    "target": "banana"
+  },
+  {
+    "task_id": "sweep/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/034.jpg",
+    "instruction": "sweep the broken glass",
+    "options": [
+      "cup",
+      "coin",
+      "credit card",
+      "level",
+      "rolling pin"
+    ],
+    "target": "broken glass"
+  },
+  {
+    "task_id": "cut/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/009.jpg",
+    "instruction": "cut the pizza",
+    "options": [
+      "card",
+      "nail clipper",
+      "axe",
+      "wrench",
+      "soap bar"
+    ],
+    "target": "pizza"
+  },
+  {
+    "task_id": "cut/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/017.jpg",
+    "instruction": "cut the apple",
+    "options": [
+      "remote control",
+      "clothespin",
+      "hair dryer",
+      "slipper",
+      "saw"
+    ],
+    "target": "apple"
+  },
+  {
+    "task_id": "lift/021",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/021.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "coffee pot",
+      "apple",
+      "screwdriver",
+      "floss container",
+      "clothespin"
+    ],
+    "target": "shopping bag"
+  },
+  {
     "task_id": "peel/019",
     "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/019.jpg",
     "instruction": "peel the hard-boiled egg",
@@ -13,120 +91,42 @@
     "target": "hard-boiled egg"
   },
   {
-    "task_id": "spread/031",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/031.jpg",
-    "instruction": "spread the cream cheese on the pizza dough",
+    "task_id": "pound/030",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/030.jpg",
+    "instruction": "pound the garlic clove",
     "options": [
-      "ruler",
-      "plate",
+      "wallet",
+      "level",
+      "coin",
+      "pliers",
+      "candle"
+    ],
+    "target": "garlic clove"
+  },
+  {
+    "task_id": "lift/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/020.jpg",
+    "instruction": "lift the bucket with handle",
+    "options": [
+      "envelope",
+      "spray bottle",
+      "toothbrush",
+      "scissors",
+      "pencil"
+    ],
+    "target": "bucket with handle"
+  },
+  {
+    "task_id": "peel/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/035.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "hairbrush",
+      "coin",
       "spatula",
-      "ladle",
-      "knife"
-    ],
-    "target": "pizza dough"
-  },
-  {
-    "task_id": "cut/034",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/034.jpg",
-    "instruction": "cut the cucumber",
-    "options": [
-      "keychain",
-      "pan",
-      "ladle",
-      "remote control",
-      "razor"
-    ],
-    "target": "cucumber"
-  },
-  {
-    "task_id": "pour/018",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/018.jpg",
-    "instruction": "pour the oil into the pot",
-    "options": [
-      "measuring cup",
-      "oven mitt",
-      "mallet",
-      "tweezers",
-      "scissors"
-    ],
-    "target": "pot"
-  },
-  {
-    "task_id": "cut/030",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/030.jpg",
-    "instruction": "cut the pizza",
-    "options": [
-      "knife",
-      "ladle",
-      "tweezers",
-      "allen wrench",
-      "broom"
-    ],
-    "target": "pizza"
-  },
-  {
-    "task_id": "stir/000",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/000.jpg",
-    "instruction": "stir the batter in the pot",
-    "options": [
-      "soap bar",
-      "drill",
-      "sock",
-      "chopstick",
-      "coin"
-    ],
-    "target": "batter in the pot"
-  },
-  {
-    "task_id": "sweep/011",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/011.jpg",
-    "instruction": "sweep the sawdust",
-    "options": [
-      "hook",
-      "flashlight",
-      "nail clipper",
-      "keychain",
-      "paintbrush"
-    ],
-    "target": "sawdust"
-  },
-  {
-    "task_id": "spread/004",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/004.jpg",
-    "instruction": "spread the cream cheese on the toast",
-    "options": [
-      "cup",
-      "glasses",
-      "ruler",
-      "grater",
+      "hat",
       "peeler"
     ],
-    "target": "toast"
-  },
-  {
-    "task_id": "spread/032",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/032.jpg",
-    "instruction": "spread the frosting on the toast",
-    "options": [
-      "loofah",
-      "grater",
-      "ruler",
-      "fork",
-      "razor"
-    ],
-    "target": "toast"
-  },
-  {
-    "task_id": "cut/010",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/010.jpg",
-    "instruction": "cut the pizza",
-    "options": [
-      "loofah",
-      "shoe",
-      "belt",
-      "tape measure",
-      "scissors"
-    ],
-    "target": "pizza"
+    "target": "onion"
   }
 ]

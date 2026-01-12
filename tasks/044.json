@@ -1,16 +1,107 @@
 [
   {
-    "task_id": "stir/024",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/024.jpg",
-    "instruction": "stir the cocktail in the bowl",
+    "task_id": "pound/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/008.jpg",
+    "instruction": "pound the bug",
     "options": [
-      "spoon",
-      "tongs",
-      "keychain",
-      "book",
-      "perfume bottle"
+      "brick",
+      "hanger",
+      "hair dryer",
+      "wallet",
+      "knife"
     ],
-    "target": "cocktail in the bowl"
+    "target": "bug"
+  },
+  {
+    "task_id": "open/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/042.jpg",
+    "instruction": "open the unopened can",
+    "options": [
+      "hairbrush",
+      "coffee pot",
+      "allen wrench",
+      "dustpan",
+      "key"
+    ],
+    "target": "unopened can"
+  },
+  {
+    "task_id": "scoop/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/035.jpg",
+    "instruction": "scoop the flour from the cup",
+    "options": [
+      "pencil",
+      "bowl",
+      "corkscrew",
+      "nail clipper",
+      "hammer"
+    ],
+    "target": "flour in the cup"
+  },
+  {
+    "task_id": "pound/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/034.jpg",
+    "instruction": "pound the nail",
+    "options": [
+      "paperball",
+      "floss container",
+      "pliers",
+      "comb",
+      "candle"
+    ],
+    "target": "nail"
+  },
+  {
+    "task_id": "cut/043",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/043.jpg",
+    "instruction": "cut the banana",
+    "options": [
+      "scissors",
+      "floss container",
+      "mug",
+      "broom",
+      "brush"
+    ],
+    "target": "banana"
+  },
+  {
+    "task_id": "scoop/039",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/039.jpg",
+    "instruction": "scoop the rice from the cup",
+    "options": [
+      "strainer",
+      "broom",
+      "knife",
+      "measuring cup",
+      "pizza"
+    ],
+    "target": "rice in the cup"
+  },
+  {
+    "task_id": "cut/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/002.jpg",
+    "instruction": "cut the cake",
+    "options": [
+      "apple",
+      "wrench",
+      "calculator",
+      "utility knife",
+      "razor"
+    ],
+    "target": "cake"
+  },
+  {
+    "task_id": "pour/005",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/005.jpg",
+    "instruction": "pour the milk into the bowl",
+    "options": [
+      "cup",
+      "pliers",
+      "sponge",
+      "envelope",
+      "scissors"
+    ],
+    "target": "bowl"
   },
   {
     "task_id": "peel/000",
@@ -26,107 +117,16 @@
     "target": "garlic"
   },
   {
-    "task_id": "pour/032",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/032.jpg",
-    "instruction": "pour the milk into the cup",
+    "task_id": "scoop/027",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/027.jpg",
+    "instruction": "scoop the flour from the pot",
     "options": [
-      "pan",
-      "coffee pot",
-      "toothbrush",
-      "rolling pin",
-      "allen wrench"
+      "brush",
+      "pliers",
+      "keychain",
+      "bowl",
+      "hair dryer"
     ],
-    "target": "cup"
-  },
-  {
-    "task_id": "cut/040",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/040.jpg",
-    "instruction": "cut the banana",
-    "options": [
-      "knife",
-      "plate",
-      "pencil",
-      "utility knife",
-      "flashlight"
-    ],
-    "target": "banana"
-  },
-  {
-    "task_id": "peel/043",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/043.jpg",
-    "instruction": "peel the ginger",
-    "options": [
-      "pizza",
-      "spray bottle",
-      "axe",
-      "pencil",
-      "loofah"
-    ],
-    "target": "ginger"
-  },
-  {
-    "task_id": "lift/013",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/013.jpg",
-    "instruction": "lift the shopping bag",
-    "options": [
-      "pizza",
-      "hanger",
-      "watch",
-      "broom",
-      "plate"
-    ],
-    "target": "shopping bag"
-  },
-  {
-    "task_id": "pour/024",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/024.jpg",
-    "instruction": "pour the water into the bowl",
-    "options": [
-      "plate",
-      "bucket",
-      "button",
-      "pizza",
-      "remote control"
-    ],
-    "target": "bowl"
-  },
-  {
-    "task_id": "pound/035",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/035.jpg",
-    "instruction": "pound the moth",
-    "options": [
-      "knife",
-      "oven mitt",
-      "shoe",
-      "grater",
-      "donut"
-    ],
-    "target": "moth"
-  },
-  {
-    "task_id": "spread/023",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/023.jpg",
-    "instruction": "spread the cream cheese on the pizza dough",
-    "options": [
-      "peeler",
-      "pencil",
-      "mug",
-      "corkscrew",
-      "spoon"
-    ],
-    "target": "pizza dough"
-  },
-  {
-    "task_id": "cut/022",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/022.jpg",
-    "instruction": "cut the cake",
-    "options": [
-      "hairbrush",
-      "cup",
-      "shoe",
-      "shovel",
-      "razor"
-    ],
-    "target": "cake"
+    "target": "flour in the pot"
   }
 ]

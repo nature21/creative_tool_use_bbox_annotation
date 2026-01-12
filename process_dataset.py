@@ -12,7 +12,7 @@ BATCH_SIZE = 10                             # trials per participant (e.g., 25)
 IMAGE_REPO_RAW_BASE = "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset"
 
 # Use a fixed seed for reproducibility. Change it when you want a new randomization.
-RANDOM_SEED = 42
+RANDOM_SEED = 11
 
 def main():
     trials = []
