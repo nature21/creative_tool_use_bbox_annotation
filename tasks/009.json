@@ -1,132 +1,132 @@
 [
   {
-    "task_id": "pour/039",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/039.jpg",
-    "instruction": "pour the batter into the bowl",
-    "options": [
-      "cup",
-      "hairbrush",
-      "pliers",
-      "donut",
-      "shovel"
-    ],
-    "target": "bowl"
-  },
-  {
-    "task_id": "scoop/043",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/043.jpg",
-    "instruction": "scoop the ice cream from the bowl",
-    "options": [
-      "mug",
-      "soap bar",
-      "whisk",
-      "pan",
-      "hair dryer"
-    ],
-    "target": "ice cream in the bowl"
-  },
-  {
-    "task_id": "cut/024",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/024.jpg",
+    "task_id": "cut/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/011.jpg",
     "instruction": "cut the pizza",
     "options": [
-      "broom",
-      "paintbrush",
-      "peeler",
-      "soap bar",
-      "corkscrew"
+      "paperball",
+      "nail clipper",
+      "magnifying glass",
+      "plate",
+      "stapler"
     ],
     "target": "pizza"
   },
   {
-    "task_id": "stir/013",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/013.jpg",
-    "instruction": "stir the tea in the bowl",
+    "task_id": "cut/006",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/006.jpg",
+    "instruction": "cut the carrot",
     "options": [
-      "comb",
-      "straw",
-      "spoon",
-      "toothbrush",
-      "loofah"
+      "axe",
+      "glasses",
+      "whisk",
+      "button",
+      "soap bar"
     ],
-    "target": "tea in the bowl"
+    "target": "carrot"
   },
   {
-    "task_id": "lift/007",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/007.jpg",
-    "instruction": "lift the basket",
+    "task_id": "stir/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/042.jpg",
+    "instruction": "stir the coffee in the bowl",
     "options": [
-      "spatula",
-      "shoe",
+      "corkscrew",
+      "hanger",
+      "remote control",
+      "flashlight",
+      "spoon"
+    ],
+    "target": "coffee in the bowl"
+  },
+  {
+    "task_id": "pound/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/046.jpg",
+    "instruction": "pound the nail",
+    "options": [
       "cup",
-      "strainer",
-      "hook"
+      "shovel",
+      "scissors",
+      "broom",
+      "tongs"
     ],
-    "target": "basket"
+    "target": "nail"
   },
   {
-    "task_id": "peel/012",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/012.jpg",
-    "instruction": "peel the banana",
-    "options": [
-      "magnifying glass",
-      "utility knife",
-      "screw",
-      "toothbrush",
-      "comb"
-    ],
-    "target": "banana"
-  },
-  {
-    "task_id": "peel/029",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/029.jpg",
-    "instruction": "peel the shrimp",
-    "options": [
-      "hook",
-      "spoon",
-      "brush",
-      "spatula",
-      "watch"
-    ],
-    "target": "shrimp"
-  },
-  {
-    "task_id": "open/025",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/025.jpg",
-    "instruction": "open the walnut",
-    "options": [
-      "hammer",
-      "floss container",
-      "drill",
-      "plate",
-      "saw"
-    ],
-    "target": "walnut"
-  },
-  {
-    "task_id": "spread/033",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/033.jpg",
-    "instruction": "spread the jam on the pizza dough",
+    "task_id": "spread/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/046.jpg",
+    "instruction": "spread the frosting on the pizza dough",
     "options": [
       "drill",
-      "wallet",
+      "slipper",
+      "spray bottle",
       "spatula",
-      "hammer",
-      "pan"
+      "envelope"
     ],
     "target": "pizza dough"
   },
   {
-    "task_id": "pour/045",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/045.jpg",
-    "instruction": "pour the tea into the pot",
+    "task_id": "stir/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/025.jpg",
+    "instruction": "stir the paint in the pot",
     "options": [
-      "spoon",
-      "hook",
-      "ruler",
-      "tweezers",
-      "apple"
+      "scissors",
+      "tape measure",
+      "drill",
+      "spatula",
+      "flashlight"
     ],
-    "target": "pot"
+    "target": "paint in the pot"
+  },
+  {
+    "task_id": "scoop/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/045.jpg",
+    "instruction": "scoop the water from the pot",
+    "options": [
+      "spatula",
+      "ladle",
+      "tongs",
+      "brush",
+      "pencil"
+    ],
+    "target": "water in the pot"
+  },
+  {
+    "task_id": "lift/039",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/039.jpg",
+    "instruction": "lift the basket",
+    "options": [
+      "rolling pin",
+      "scissors",
+      "knife",
+      "loofah",
+      "tongs"
+    ],
+    "target": "basket"
+  },
+  {
+    "task_id": "stir/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/026.jpg",
+    "instruction": "stir the cocktail in the pot",
+    "options": [
+      "clothespin",
+      "broom",
+      "strainer",
+      "chopstick",
+      "shovel"
+    ],
+    "target": "cocktail in the pot"
+  },
+  {
+    "task_id": "cut/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/026.jpg",
+    "instruction": "cut the carrot",
+    "options": [
+      "donut",
+      "saw",
+      "nail clipper",
+      "candle",
+      "book"
+    ],
+    "target": "carrot"
   }
 ]

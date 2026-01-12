@@ -1,5 +1,70 @@
 [
   {
+    "task_id": "lift/038",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/038.jpg",
+    "instruction": "lift the basket",
+    "options": [
+      "pliers",
+      "ladle",
+      "sponge",
+      "keychain",
+      "tongs"
+    ],
+    "target": "basket"
+  },
+  {
+    "task_id": "lift/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/046.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "pizza",
+      "axe",
+      "ladle",
+      "stick",
+      "button"
+    ],
+    "target": "shopping bag"
+  },
+  {
+    "task_id": "stir/039",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/039.jpg",
+    "instruction": "stir the coffee in the bowl",
+    "options": [
+      "sponge",
+      "button",
+      "calculator",
+      "ruler",
+      "knife"
+    ],
+    "target": "coffee in the bowl"
+  },
+  {
+    "task_id": "scoop/003",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/003.jpg",
+    "instruction": "scoop the rice from the pot",
+    "options": [
+      "glasses",
+      "level",
+      "candle",
+      "measuring cup",
+      "nail clipper"
+    ],
+    "target": "rice in the pot"
+  },
+  {
+    "task_id": "lift/000",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/000.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "razor",
+      "saw",
+      "axe",
+      "belt",
+      "candle"
+    ],
+    "target": "shopping bag"
+  },
+  {
     "task_id": "peel/049",
     "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/049.jpg",
     "instruction": "peel the onion",
@@ -13,120 +78,55 @@
     "target": "onion"
   },
   {
-    "task_id": "cut/044",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/044.jpg",
-    "instruction": "cut the banana",
+    "task_id": "pour/047",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/047.jpg",
+    "instruction": "pour the water into the cup",
     "options": [
-      "broom",
-      "scissors",
-      "clothespin",
-      "shovel",
-      "brush"
+      "tweezers",
+      "card",
+      "sponge",
+      "teapot",
+      "allen wrench"
     ],
-    "target": "banana"
+    "target": "cup"
   },
   {
-    "task_id": "pound/039",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/039.jpg",
-    "instruction": "pound the nail",
+    "task_id": "open/031",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/031.jpg",
+    "instruction": "open the paper box",
     "options": [
-      "sock",
-      "keychain",
-      "belt",
-      "saw",
-      "pliers"
-    ],
-    "target": "nail"
-  },
-  {
-    "task_id": "sweep/025",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/025.jpg",
-    "instruction": "sweep the dirt",
-    "options": [
+      "sponge",
+      "drill",
       "pliers",
-      "dustpan",
+      "oven mitt",
+      "screw"
+    ],
+    "target": "paper box"
+  },
+  {
+    "task_id": "open/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/020.jpg",
+    "instruction": "open the walnut",
+    "options": [
+      "scissors",
       "mallet",
-      "grater",
-      "remote control"
+      "mug",
+      "peeler",
+      "rolling pin"
     ],
-    "target": "dirt"
+    "target": "walnut"
   },
   {
-    "task_id": "peel/035",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/035.jpg",
-    "instruction": "peel the onion",
+    "task_id": "spread/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/008.jpg",
+    "instruction": "spread the butter on the toast",
     "options": [
-      "hairbrush",
-      "coin",
-      "spatula",
-      "hat",
-      "peeler"
-    ],
-    "target": "onion"
-  },
-  {
-    "task_id": "stir/031",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/031.jpg",
-    "instruction": "stir the batter in the bowl",
-    "options": [
-      "broom",
-      "toothbrush",
-      "remote control",
-      "pizza",
-      "fork"
-    ],
-    "target": "batter in the bowl"
-  },
-  {
-    "task_id": "peel/043",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/043.jpg",
-    "instruction": "peel the ginger",
-    "options": [
-      "pizza",
-      "spray bottle",
-      "axe",
-      "pencil",
-      "loofah"
-    ],
-    "target": "ginger"
-  },
-  {
-    "task_id": "scoop/025",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/025.jpg",
-    "instruction": "scoop the water from the pot",
-    "options": [
-      "spoon",
-      "toothbrush",
+      "hair dryer",
       "watch",
-      "plate",
-      "pizza"
+      "knife",
+      "coffee pot",
+      "spoon"
     ],
-    "target": "water in the pot"
-  },
-  {
-    "task_id": "scoop/031",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/031.jpg",
-    "instruction": "scoop the flour from the pot",
-    "options": [
-      "fork",
-      "spoon",
-      "broom",
-      "razor",
-      "shovel"
-    ],
-    "target": "flour in the pot"
-  },
-  {
-    "task_id": "cut/006",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/006.jpg",
-    "instruction": "cut the carrot",
-    "options": [
-      "axe",
-      "glasses",
-      "whisk",
-      "button",
-      "soap bar"
-    ],
-    "target": "carrot"
+    "target": "toast"
   }
 ]

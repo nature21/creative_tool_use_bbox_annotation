@@ -1,132 +1,132 @@
 [
   {
-    "task_id": "peel/008",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/008.jpg",
+    "task_id": "open/029",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/029.jpg",
+    "instruction": "open the bottle",
+    "options": [
+      "corkscrew",
+      "belt",
+      "teapot",
+      "knife",
+      "saw"
+    ],
+    "target": "bottle"
+  },
+  {
+    "task_id": "peel/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/012.jpg",
     "instruction": "peel the banana",
     "options": [
-      "ruler",
-      "razor",
-      "peeler",
-      "nail clipper",
-      "slipper"
+      "magnifying glass",
+      "utility knife",
+      "screw",
+      "toothbrush",
+      "comb"
     ],
     "target": "banana"
   },
   {
-    "task_id": "stir/042",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/042.jpg",
-    "instruction": "stir the coffee in the bowl",
+    "task_id": "pound/023",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/023.jpg",
+    "instruction": "pound the moth",
     "options": [
       "corkscrew",
-      "hanger",
-      "remote control",
+      "axe",
+      "pliers",
+      "scissors",
+      "watch"
+    ],
+    "target": "moth"
+  },
+  {
+    "task_id": "cut/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/041.jpg",
+    "instruction": "cut the cake",
+    "options": [
+      "strainer",
       "flashlight",
-      "spoon"
+      "credit card",
+      "spatula",
+      "fork"
     ],
-    "target": "coffee in the bowl"
+    "target": "cake"
   },
   {
-    "task_id": "stir/039",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/039.jpg",
-    "instruction": "stir the coffee in the bowl",
-    "options": [
-      "sponge",
-      "button",
-      "calculator",
-      "ruler",
-      "knife"
-    ],
-    "target": "coffee in the bowl"
-  },
-  {
-    "task_id": "stir/030",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/030.jpg",
-    "instruction": "stir the batter in the bowl",
-    "options": [
-      "paintbrush",
-      "hook",
-      "coffee pot",
-      "spoon",
-      "tape measure"
-    ],
-    "target": "batter in the bowl"
-  },
-  {
-    "task_id": "pour/024",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/024.jpg",
+    "task_id": "pour/028",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/028.jpg",
     "instruction": "pour the water into the bowl",
     "options": [
-      "plate",
-      "bucket",
-      "button",
-      "pizza",
-      "remote control"
+      "tongs",
+      "stapler",
+      "whisk",
+      "ladle",
+      "scissors"
     ],
     "target": "bowl"
   },
   {
-    "task_id": "cut/017",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/017.jpg",
-    "instruction": "cut the apple",
+    "task_id": "cut/021",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/021.jpg",
+    "instruction": "cut the carrot",
     "options": [
-      "remote control",
-      "clothespin",
-      "hair dryer",
-      "slipper",
-      "saw"
+      "ladle",
+      "saw",
+      "tape measure",
+      "belt",
+      "button"
     ],
-    "target": "apple"
+    "target": "carrot"
   },
   {
-    "task_id": "lift/004",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/004.jpg",
+    "task_id": "stir/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/034.jpg",
+    "instruction": "stir the soup in the bowl",
+    "options": [
+      "bowl",
+      "soap bar",
+      "hammer",
+      "hairbrush",
+      "spatula"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "lift/018",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/018.jpg",
     "instruction": "lift the bucket with handle",
     "options": [
-      "pencil",
-      "coffee pot",
-      "credit card",
-      "peeler",
-      "ruler"
+      "hammer",
+      "ladle",
+      "mug",
+      "toothbrush",
+      "tongs"
     ],
     "target": "bucket with handle"
   },
   {
-    "task_id": "lift/005",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/005.jpg",
-    "instruction": "lift the mug",
+    "task_id": "pound/027",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/027.jpg",
+    "instruction": "pound the bug",
     "options": [
-      "level",
-      "book",
-      "screwdriver",
-      "broom",
-      "corkscrew"
+      "hanger",
+      "cup",
+      "hook",
+      "mallet",
+      "strainer"
     ],
-    "target": "mug"
+    "target": "bug"
   },
   {
-    "task_id": "pour/025",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/025.jpg",
-    "instruction": "pour the soup into the cup",
+    "task_id": "peel/001",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/001.jpg",
+    "instruction": "peel the garlic",
     "options": [
-      "bowl",
-      "plate",
-      "shoe",
-      "hammer",
-      "dustpan"
+      "saw",
+      "tape measure",
+      "calculator",
+      "whisk",
+      "moth"
     ],
-    "target": "cup"
-  },
-  {
-    "task_id": "pound/003",
-    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/003.jpg",
-    "instruction": "pound the crushed peppercorns",
-    "options": [
-      "teapot",
-      "hammer",
-      "fork",
-      "sock",
-      "sponge"
-    ],
-    "target": "crushed peppercorns"
+    "target": "garlic"
   }
 ]
