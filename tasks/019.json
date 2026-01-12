@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "scoop/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/045.jpg",
+    "instruction": "scoop the water from the pot",
+    "options": [
+      "spatula",
+      "ladle",
+      "tongs",
+      "brush",
+      "pencil"
+    ],
+    "target": "water in the pot"
+  },
+  {
+    "task_id": "lift/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/025.jpg",
+    "instruction": "lift the teapot",
+    "options": [
+      "spoon",
+      "spray bottle",
+      "book",
+      "hanger",
+      "level"
+    ],
+    "target": "teapot"
+  },
+  {
+    "task_id": "sweep/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/009.jpg",
+    "instruction": "sweep the dirt",
+    "options": [
+      "book",
+      "apple",
+      "saw",
+      "hat",
+      "sponge"
+    ],
+    "target": "dirt"
+  },
+  {
+    "task_id": "pound/043",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/043.jpg",
+    "instruction": "pound the garlic clove",
+    "options": [
+      "sock",
+      "perfume bottle",
+      "wrench",
+      "ladle",
+      "spatula"
+    ],
+    "target": "garlic clove"
+  },
+  {
+    "task_id": "spread/023",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/023.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "peeler",
+      "pencil",
+      "mug",
+      "corkscrew",
+      "spoon"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "stir/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/011.jpg",
+    "instruction": "stir the batter in the pot",
+    "options": [
+      "paintbrush",
+      "allen wrench",
+      "pencil",
+      "spoon",
+      "belt"
+    ],
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "open/019",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/019.jpg",
+    "instruction": "open the can",
+    "options": [
+      "screwdriver",
+      "peeler",
+      "dustpan",
+      "donut",
+      "razor"
+    ],
+    "target": "can"
+  },
+  {
+    "task_id": "sweep/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/013.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "knife",
+      "hook",
+      "soap bar",
+      "shovel",
+      "dustpan"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "open/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/017.jpg",
+    "instruction": "open the coconut",
+    "options": [
+      "whisk",
+      "scissors",
+      "magnifying glass",
+      "button",
+      "wrench"
+    ],
+    "target": "coconut"
+  },
+  {
+    "task_id": "spread/001",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/001.jpg",
+    "instruction": "spread the jam on the toast",
+    "options": [
+      "utility knife",
+      "coin",
+      "candle",
+      "spoon",
+      "envelope"
+    ],
+    "target": "toast"
+  }
+]

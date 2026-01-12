@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "spread/003",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/003.jpg",
+    "instruction": "spread the frosting on the pizza dough",
+    "options": [
+      "sock",
+      "spoon",
+      "wrench",
+      "rolling pin",
+      "hammer"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "lift/006",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/006.jpg",
+    "instruction": "lift the basket with handle",
+    "options": [
+      "wallet",
+      "pencil",
+      "ruler",
+      "dustpan",
+      "knife"
+    ],
+    "target": "basket with handle"
+  },
+  {
+    "task_id": "sweep/047",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/047.jpg",
+    "instruction": "sweep the sawdust",
+    "options": [
+      "screw",
+      "hook",
+      "cardboard",
+      "allen wrench",
+      "knife"
+    ],
+    "target": "sawdust"
+  },
+  {
+    "task_id": "pound/016",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/016.jpg",
+    "instruction": "pound the walnut",
+    "options": [
+      "soap bar",
+      "utility knife",
+      "wrench",
+      "glasses",
+      "pizza"
+    ],
+    "target": "walnut"
+  },
+  {
+    "task_id": "scoop/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/009.jpg",
+    "instruction": "scoop the rice from the bowl",
+    "options": [
+      "credit card",
+      "paintbrush",
+      "loofah",
+      "broom",
+      "utility knife"
+    ],
+    "target": "rice in the bowl"
+  },
+  {
+    "task_id": "scoop/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/026.jpg",
+    "instruction": "scoop the water from the pot",
+    "options": [
+      "knife",
+      "spray bottle",
+      "hairbrush",
+      "strainer",
+      "ladle"
+    ],
+    "target": "water in the pot"
+  },
+  {
+    "task_id": "open/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/035.jpg",
+    "instruction": "open the unopened beer",
+    "options": [
+      "cup",
+      "utility knife",
+      "card",
+      "rolling pin",
+      "measuring cup"
+    ],
+    "target": "unopened beer"
+  },
+  {
+    "task_id": "pound/031",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/031.jpg",
+    "instruction": "pound the bug",
+    "options": [
+      "broom",
+      "perfume bottle",
+      "grater",
+      "stone",
+      "hair dryer"
+    ],
+    "target": "bug"
+  },
+  {
+    "task_id": "scoop/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/040.jpg",
+    "instruction": "scoop the ice cream from the pot",
+    "options": [
+      "ladle",
+      "razor",
+      "hook",
+      "pencil",
+      "apple"
+    ],
+    "target": "ice cream in the pot"
+  },
+  {
+    "task_id": "lift/019",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/019.jpg",
+    "instruction": "lift the bucket",
+    "options": [
+      "knife",
+      "moth",
+      "pencil",
+      "fork",
+      "glasses"
+    ],
+    "target": "bucket"
+  }
+]

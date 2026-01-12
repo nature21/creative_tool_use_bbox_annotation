@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "pound/032",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/032.jpg",
+    "instruction": "pound the walnut",
+    "options": [
+      "mallet",
+      "screwdriver",
+      "screw",
+      "cup",
+      "corkscrew"
+    ],
+    "target": "walnut"
+  },
+  {
+    "task_id": "pound/023",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/023.jpg",
+    "instruction": "pound the moth",
+    "options": [
+      "corkscrew",
+      "axe",
+      "pliers",
+      "scissors",
+      "watch"
+    ],
+    "target": "moth"
+  },
+  {
+    "task_id": "pound/015",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/015.jpg",
+    "instruction": "pound the button",
+    "options": [
+      "mug",
+      "nail clipper",
+      "glasses",
+      "hairbrush",
+      "spoon"
+    ],
+    "target": "button"
+  },
+  {
+    "task_id": "stir/027",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/027.jpg",
+    "instruction": "stir the soup in the bowl",
+    "options": [
+      "tweezers",
+      "straw",
+      "hairbrush",
+      "wrench",
+      "sock"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "pour/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/035.jpg",
+    "instruction": "pour the oil into the pot",
+    "options": [
+      "soap bar",
+      "hanger",
+      "teapot",
+      "measuring cup",
+      "pizza"
+    ],
+    "target": "pot"
+  },
+  {
+    "task_id": "pour/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/017.jpg",
+    "instruction": "pour the juice into the pot",
+    "options": [
+      "mug",
+      "spoon",
+      "razor",
+      "pliers",
+      "wrench"
+    ],
+    "target": "pot"
+  },
+  {
+    "task_id": "stir/033",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/033.jpg",
+    "instruction": "stir the soup in the bowl",
+    "options": [
+      "bowl",
+      "pliers",
+      "glasses",
+      "ruler",
+      "spatula"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "pound/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/008.jpg",
+    "instruction": "pound the bug",
+    "options": [
+      "brick",
+      "hanger",
+      "hair dryer",
+      "wallet",
+      "knife"
+    ],
+    "target": "bug"
+  },
+  {
+    "task_id": "stir/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/026.jpg",
+    "instruction": "stir the cocktail in the pot",
+    "options": [
+      "clothespin",
+      "broom",
+      "strainer",
+      "chopstick",
+      "shovel"
+    ],
+    "target": "cocktail in the pot"
+  },
+  {
+    "task_id": "stir/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/040.jpg",
+    "instruction": "stir the batter in the bowl",
+    "options": [
+      "fork",
+      "card",
+      "shovel",
+      "spray bottle",
+      "dustpan"
+    ],
+    "target": "batter in the bowl"
+  }
+]

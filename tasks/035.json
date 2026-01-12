@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "scoop/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/041.jpg",
+    "instruction": "scoop the soup from the bowl",
+    "options": [
+      "scissors",
+      "ruler",
+      "tongs",
+      "tweezers",
+      "watch"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "sweep/000",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/000.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "tongs",
+      "soap bar",
+      "whisk",
+      "dustpan",
+      "pan"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "spread/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/010.jpg",
+    "instruction": "spread the frosting on the toast",
+    "options": [
+      "hook",
+      "paperball",
+      "screwdriver",
+      "spoon",
+      "paintbrush"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "lift/044",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/044.jpg",
+    "instruction": "lift the bucket",
+    "options": [
+      "slipper",
+      "mug",
+      "strainer",
+      "pencil",
+      "tongs"
+    ],
+    "target": "bucket"
+  },
+  {
+    "task_id": "peel/032",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/032.jpg",
+    "instruction": "peel the banana",
+    "options": [
+      "cup",
+      "nail clipper",
+      "spoon",
+      "pan",
+      "spatula"
+    ],
+    "target": "banana"
+  },
+  {
+    "task_id": "spread/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/046.jpg",
+    "instruction": "spread the frosting on the pizza dough",
+    "options": [
+      "drill",
+      "slipper",
+      "spray bottle",
+      "spatula",
+      "envelope"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "stir/035",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/035.jpg",
+    "instruction": "stir the soup in the pot",
+    "options": [
+      "toothbrush",
+      "spoon",
+      "paintbrush",
+      "cup",
+      "knife"
+    ],
+    "target": "soup in the pot"
+  },
+  {
+    "task_id": "spread/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/013.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "stapler",
+      "nail clipper",
+      "keychain",
+      "spatula",
+      "wallet"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "scoop/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/034.jpg",
+    "instruction": "scoop the flour from the bowl",
+    "options": [
+      "shovel",
+      "belt",
+      "wallet",
+      "watch",
+      "razor"
+    ],
+    "target": "flour in the bowl"
+  },
+  {
+    "task_id": "sweep/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/012.jpg",
+    "instruction": "sweep the crumbs",
+    "options": [
+      "keychain",
+      "grater",
+      "hat",
+      "dustpan",
+      "fork"
+    ],
+    "target": "crumbs"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "scoop/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/042.jpg",
+    "instruction": "scoop the flour from the bowl",
+    "options": [
+      "scissors",
+      "mug",
+      "axe",
+      "dustpan",
+      "whisk"
+    ],
+    "target": "flour in the bowl"
+  },
+  {
+    "task_id": "stir/049",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/049.jpg",
+    "instruction": "stir the tea in the bowl",
+    "options": [
+      "screw",
+      "straw",
+      "utility knife",
+      "wrench",
+      "card"
+    ],
+    "target": "tea in the bowl"
+  },
+  {
+    "task_id": "spread/019",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/019.jpg",
+    "instruction": "spread the frosting on the toast",
+    "options": [
+      "wallet",
+      "donut",
+      "bowl",
+      "measuring cup",
+      "creditcard"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "sweep/038",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/038.jpg",
+    "instruction": "sweep the confetti",
+    "options": [
+      "brush",
+      "level",
+      "screw",
+      "watch",
+      "razor"
+    ],
+    "target": "confetti"
+  },
+  {
+    "task_id": "sweep/023",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/023.jpg",
+    "instruction": "sweep the broken glass",
+    "options": [
+      "fork",
+      "broom",
+      "grater",
+      "knife",
+      "remote control"
+    ],
+    "target": "broken glass"
+  },
+  {
+    "task_id": "lift/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/010.jpg",
+    "instruction": "lift the basket",
+    "options": [
+      "hook",
+      "broom",
+      "ruler",
+      "plate",
+      "spatula"
+    ],
+    "target": "basket"
+  },
+  {
+    "task_id": "spread/007",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/007.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "teapot",
+      "cup",
+      "stapler",
+      "tweezers",
+      "spatula"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "peel/030",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/030.jpg",
+    "instruction": "peel the garlic",
+    "options": [
+      "screwdriver",
+      "magnifying glass",
+      "hairbrush",
+      "calculator",
+      "slipper"
+    ],
+    "target": "garlic"
+  },
+  {
+    "task_id": "spread/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/011.jpg",
+    "instruction": "spread the cream cheese on the toast",
+    "options": [
+      "remote control",
+      "ruler",
+      "paperball",
+      "tape measure",
+      "saw"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "spread/015",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/015.jpg",
+    "instruction": "spread the frosting on the pizza dough",
+    "options": [
+      "scissors",
+      "utility knife",
+      "basting brush",
+      "clothespin",
+      "belt"
+    ],
+    "target": "pizza dough"
+  }
+]

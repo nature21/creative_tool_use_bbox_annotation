@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "open/044",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/044.jpg",
+    "instruction": "open the coconut",
+    "options": [
+      "card",
+      "apple",
+      "scissors",
+      "hat",
+      "sponge"
+    ],
+    "target": "coconut"
+  },
+  {
+    "task_id": "pound/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/020.jpg",
+    "instruction": "pound the nail",
+    "options": [
+      "slipper",
+      "ruler",
+      "stone",
+      "comb",
+      "allen wrench"
+    ],
+    "target": "nail"
+  },
+  {
+    "task_id": "stir/032",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/032.jpg",
+    "instruction": "stir the coffee in the bowl",
+    "options": [
+      "knife",
+      "hair dryer",
+      "peeler",
+      "teapot",
+      "loofah"
+    ],
+    "target": "coffee in the bowl"
+  },
+  {
+    "task_id": "pour/049",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/049.jpg",
+    "instruction": "pour the batter into the pot",
+    "options": [
+      "tongs",
+      "book",
+      "pizza",
+      "utility knife",
+      "ladle"
+    ],
+    "target": "pot"
+  },
+  {
+    "task_id": "stir/014",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/014.jpg",
+    "instruction": "stir the soup in the bowl",
+    "options": [
+      "dustpan",
+      "calculator",
+      "teapot",
+      "strainer",
+      "spatula"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "open/029",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/029.jpg",
+    "instruction": "open the bottle",
+    "options": [
+      "corkscrew",
+      "belt",
+      "teapot",
+      "knife",
+      "saw"
+    ],
+    "target": "bottle"
+  },
+  {
+    "task_id": "open/046",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/046.jpg",
+    "instruction": "open the box",
+    "options": [
+      "card",
+      "sponge",
+      "spoon",
+      "rolling pin",
+      "dustpan"
+    ],
+    "target": "box"
+  },
+  {
+    "task_id": "scoop/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/002.jpg",
+    "instruction": "scoop the flour from the bowl",
+    "options": [
+      "tongs",
+      "candle",
+      "peeler",
+      "spoon",
+      "cup"
+    ],
+    "target": "flour in the bowl"
+  },
+  {
+    "task_id": "stir/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/041.jpg",
+    "instruction": "stir the soup in the bowl",
+    "options": [
+      "hook",
+      "corkscrew",
+      "pencil",
+      "floss container",
+      "tongs"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "open/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/020.jpg",
+    "instruction": "open the walnut",
+    "options": [
+      "scissors",
+      "mallet",
+      "mug",
+      "peeler",
+      "rolling pin"
+    ],
+    "target": "walnut"
+  }
+]

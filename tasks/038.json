@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "stir/045",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/045.jpg",
+    "instruction": "stir the batter in the pot",
+    "options": [
+      "pan",
+      "drill",
+      "ladle",
+      "fork",
+      "hook"
+    ],
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "lift/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/017.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "peeler",
+      "pliers",
+      "apple",
+      "razor",
+      "watch"
+    ],
+    "target": "shopping bag"
+  },
+  {
+    "task_id": "peel/017",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/017.jpg",
+    "instruction": "peel the banana",
+    "options": [
+      "comb",
+      "spray bottle",
+      "slipper",
+      "card",
+      "fork"
+    ],
+    "target": "banana"
+  },
+  {
+    "task_id": "peel/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/025.jpg",
+    "instruction": "peel the garlic",
+    "options": [
+      "scissors",
+      "oven mitt",
+      "axe",
+      "nail clipper",
+      "hammer"
+    ],
+    "target": "garlic"
+  },
+  {
+    "task_id": "peel/006",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/006.jpg",
+    "instruction": "peel the potato",
+    "options": [
+      "soap bar",
+      "screwdriver",
+      "mug",
+      "grater",
+      "cup"
+    ],
+    "target": "potato"
+  },
+  {
+    "task_id": "stir/021",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/021.jpg",
+    "instruction": "stir the paint in the bowl",
+    "options": [
+      "nail clipper",
+      "flashlight",
+      "tongs",
+      "broom",
+      "spatula"
+    ],
+    "target": "paint in the bowl"
+  },
+  {
+    "task_id": "peel/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/024.jpg",
+    "instruction": "peel the ginger",
+    "options": [
+      "hat",
+      "paintbrush",
+      "peeler",
+      "fork",
+      "magnifying glass"
+    ],
+    "target": "ginger"
+  },
+  {
+    "task_id": "pour/004",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/004.jpg",
+    "instruction": "pour the water into the bowl",
+    "options": [
+      "strainer",
+      "peeler",
+      "shoe",
+      "cup",
+      "drill"
+    ],
+    "target": "bowl"
+  },
+  {
+    "task_id": "peel/000",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/000.jpg",
+    "instruction": "peel the garlic",
+    "options": [
+      "slipper",
+      "hairbrush",
+      "spoon",
+      "strainer",
+      "cup"
+    ],
+    "target": "garlic"
+  },
+  {
+    "task_id": "pour/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/034.jpg",
+    "instruction": "pour the tea into the bowl",
+    "options": [
+      "oven mitt",
+      "scissors",
+      "apple",
+      "tongs",
+      "mug"
+    ],
+    "target": "bowl"
+  }
+]

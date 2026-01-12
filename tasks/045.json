@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "pound/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/013.jpg",
+    "instruction": "pound the crushed peppercorns",
+    "options": [
+      "mallet",
+      "sock",
+      "soap bar",
+      "broom",
+      "ruler"
+    ],
+    "target": "crushed peppercorns"
+  },
+  {
+    "task_id": "cut/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/012.jpg",
+    "instruction": "cut the pizza",
+    "options": [
+      "screwdriver",
+      "floss container",
+      "saw",
+      "allen wrench",
+      "card"
+    ],
+    "target": "pizza"
+  },
+  {
+    "task_id": "stir/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/034.jpg",
+    "instruction": "stir the soup in the bowl",
+    "options": [
+      "bowl",
+      "soap bar",
+      "hammer",
+      "hairbrush",
+      "spatula"
+    ],
+    "target": "soup in the bowl"
+  },
+  {
+    "task_id": "open/001",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/001.jpg",
+    "instruction": "open the unopened can",
+    "options": [
+      "teeth",
+      "spray bottle",
+      "cup",
+      "clothespin",
+      "floss container"
+    ],
+    "target": "unopened can"
+  },
+  {
+    "task_id": "pour/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/026.jpg",
+    "instruction": "pour the juice into the bowl",
+    "options": [
+      "paperball",
+      "strainer",
+      "coffee pot",
+      "pencil",
+      "scissors"
+    ],
+    "target": "bowl"
+  },
+  {
+    "task_id": "lift/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/020.jpg",
+    "instruction": "lift the bucket with handle",
+    "options": [
+      "envelope",
+      "spray bottle",
+      "toothbrush",
+      "scissors",
+      "pencil"
+    ],
+    "target": "bucket with handle"
+  },
+  {
+    "task_id": "sweep/044",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/044.jpg",
+    "instruction": "sweep the sawdust",
+    "options": [
+      "shoe",
+      "oven mitt",
+      "brush",
+      "ladle",
+      "corkscrew"
+    ],
+    "target": "sawdust"
+  },
+  {
+    "task_id": "sweep/001",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/001.jpg",
+    "instruction": "sweep the crumbs",
+    "options": [
+      "dustpan",
+      "watch",
+      "clothespin",
+      "wrench",
+      "screw"
+    ],
+    "target": "crumbs"
+  },
+  {
+    "task_id": "sweep/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/040.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "shoe",
+      "coffee pot",
+      "spatula",
+      "brush",
+      "clothespin"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "open/037",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/037.jpg",
+    "instruction": "open the paper box",
+    "options": [
+      "shoe",
+      "soap bar",
+      "wallet",
+      "axe",
+      "keychain"
+    ],
+    "target": "paper box"
+  }
+]

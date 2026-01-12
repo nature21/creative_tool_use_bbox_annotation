@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "lift/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/012.jpg",
+    "instruction": "lift the basket with handle",
+    "options": [
+      "bowl",
+      "stapler",
+      "stick",
+      "tape measure",
+      "scissors"
+    ],
+    "target": "basket with handle"
+  },
+  {
+    "task_id": "stir/022",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/022.jpg",
+    "instruction": "stir the tea in the bowl",
+    "options": [
+      "scissors",
+      "chopstick",
+      "clothespin",
+      "drill",
+      "pan"
+    ],
+    "target": "tea in the bowl"
+  },
+  {
+    "task_id": "sweep/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/042.jpg",
+    "instruction": "sweep the confetti",
+    "options": [
+      "axe",
+      "spoon",
+      "dustpan",
+      "coin",
+      "hairbrush"
+    ],
+    "target": "confetti"
+  },
+  {
+    "task_id": "pound/042",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/042.jpg",
+    "instruction": "pound the button",
+    "options": [
+      "pliers",
+      "wallet",
+      "paperball",
+      "loofah",
+      "toothbrush"
+    ],
+    "target": "button"
+  },
+  {
+    "task_id": "stir/018",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/018.jpg",
+    "instruction": "stir the tea in the bowl",
+    "options": [
+      "hat",
+      "spatula",
+      "ruler",
+      "book",
+      "hairbrush"
+    ],
+    "target": "tea in the bowl"
+  },
+  {
+    "task_id": "spread/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/008.jpg",
+    "instruction": "spread the butter on the toast",
+    "options": [
+      "hair dryer",
+      "watch",
+      "knife",
+      "coffee pot",
+      "spoon"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "spread/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/025.jpg",
+    "instruction": "spread the butter on the toast",
+    "options": [
+      "ruler",
+      "spray bottle",
+      "grater",
+      "sponge",
+      "envelope"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "peel/036",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/036.jpg",
+    "instruction": "peel the potato",
+    "options": [
+      "rolling pin",
+      "fork",
+      "glassses",
+      "broom",
+      "hanger"
+    ],
+    "target": "potato"
+  },
+  {
+    "task_id": "pound/000",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/000.jpg",
+    "instruction": "pound the nail",
+    "options": [
+      "hanger",
+      "paintbrush",
+      "razor",
+      "shovel",
+      "saw"
+    ],
+    "target": "nail"
+  },
+  {
+    "task_id": "peel/005",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/005.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "spray bottle",
+      "spoon",
+      "perfume bottle",
+      "watch",
+      "flashlight"
+    ],
+    "target": "onion"
+  }
+]

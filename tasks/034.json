@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "spread/014",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/014.jpg",
+    "instruction": "spread the cream cheese on the toast",
+    "options": [
+      "shovel",
+      "candle",
+      "allen wrench",
+      "watch",
+      "knife"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "pour/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/040.jpg",
+    "instruction": "pour the batter into the pot",
+    "options": [
+      "teapot",
+      "perfume bottle",
+      "toothbrush",
+      "cup",
+      "soap bar"
+    ],
+    "target": "pot"
+  },
+  {
+    "task_id": "pound/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/011.jpg",
+    "instruction": "pound the nuts",
+    "options": [
+      "keychain",
+      "paperball",
+      "stapler",
+      "magnifying glass",
+      "stone"
+    ],
+    "target": "nuts"
+  },
+  {
+    "task_id": "spread/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/020.jpg",
+    "instruction": "spread the cream cheese on the toast",
+    "options": [
+      "card",
+      "spoon",
+      "comb",
+      "stapler",
+      "hanger"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "pound/033",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/033.jpg",
+    "instruction": "pound the crushed peppercorns",
+    "options": [
+      "axe",
+      "mug",
+      "wallet",
+      "coffee pot",
+      "hair dryer"
+    ],
+    "target": "crushed peppercorns"
+  },
+  {
+    "task_id": "sweep/021",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/021.jpg",
+    "instruction": "sweep the broken glass",
+    "options": [
+      "envelope",
+      "peeler",
+      "pencil",
+      "screwdriver",
+      "dustpan"
+    ],
+    "target": "broken glass"
+  },
+  {
+    "task_id": "cut/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/002.jpg",
+    "instruction": "cut the cake",
+    "options": [
+      "apple",
+      "wrench",
+      "calculator",
+      "utility knife",
+      "razor"
+    ],
+    "target": "cake"
+  },
+  {
+    "task_id": "sweep/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/024.jpg",
+    "instruction": "sweep the crumbs",
+    "options": [
+      "paintbrush",
+      "hanger",
+      "knife",
+      "cup",
+      "book"
+    ],
+    "target": "crumbs"
+  },
+  {
+    "task_id": "lift/029",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/029.jpg",
+    "instruction": "lift the bucket with handle",
+    "options": [
+      "hairbrush",
+      "scissors",
+      "mallet",
+      "glasses",
+      "stick"
+    ],
+    "target": "bucket with handle"
+  },
+  {
+    "task_id": "pound/019",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/019.jpg",
+    "instruction": "pound the crushed peppercorns",
+    "options": [
+      "mallet",
+      "oven mitt",
+      "belt",
+      "perfume bottle",
+      "pliers"
+    ],
+    "target": "crushed peppercorns"
+  }
+]

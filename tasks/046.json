@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "cut/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/008.jpg",
+    "instruction": "cut the apple",
+    "options": [
+      "utility knife",
+      "peeler",
+      "bowl",
+      "measuring cup",
+      "corkscrew"
+    ],
+    "target": "apple"
+  },
+  {
+    "task_id": "cut/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/026.jpg",
+    "instruction": "cut the carrot",
+    "options": [
+      "donut",
+      "saw",
+      "nail clipper",
+      "candle",
+      "book"
+    ],
+    "target": "carrot"
+  },
+  {
+    "task_id": "stir/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/002.jpg",
+    "instruction": "stir the coffee in the pot",
+    "options": [
+      "straw",
+      "magnifying glass",
+      "scissors",
+      "grater",
+      "comb"
+    ],
+    "target": "coffee in the pot"
+  },
+  {
+    "task_id": "open/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/034.jpg",
+    "instruction": "open the walnut",
+    "options": [
+      "sock",
+      "rolling pin",
+      "tongs",
+      "card",
+      "whisk"
+    ],
+    "target": "walnut"
+  },
+  {
+    "task_id": "cut/025",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/025.jpg",
+    "instruction": "cut the carrot",
+    "options": [
+      "ladle",
+      "brush",
+      "measuring cup",
+      "card",
+      "clothespin"
+    ],
+    "target": "carrot"
+  },
+  {
+    "task_id": "sweep/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/011.jpg",
+    "instruction": "sweep the sawdust",
+    "options": [
+      "hook",
+      "flashlight",
+      "nail clipper",
+      "keychain",
+      "paintbrush"
+    ],
+    "target": "sawdust"
+  },
+  {
+    "task_id": "peel/038",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/038.jpg",
+    "instruction": "peel the garlic",
+    "options": [
+      "scissors",
+      "knife",
+      "hair dryer",
+      "whisk",
+      "pan"
+    ],
+    "target": "garlic"
+  },
+  {
+    "task_id": "pound/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/010.jpg",
+    "instruction": "pound the bug",
+    "options": [
+      "candle",
+      "belt",
+      "hook",
+      "pizza",
+      "book"
+    ],
+    "target": "bug"
+  },
+  {
+    "task_id": "lift/043",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/043.jpg",
+    "instruction": "lift the padlock",
+    "options": [
+      "sock",
+      "shoe",
+      "plate",
+      "nail clipper",
+      "hanger"
+    ],
+    "target": "padlock"
+  },
+  {
+    "task_id": "spread/044",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/044.jpg",
+    "instruction": "spread the butter on the pizza dough",
+    "options": [
+      "flashlight",
+      "soap bar",
+      "hammer",
+      "ruler",
+      "remote control"
+    ],
+    "target": "pizza dough"
+  }
+]

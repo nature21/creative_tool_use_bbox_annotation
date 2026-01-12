@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "scoop/029",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/029.jpg",
+    "instruction": "scoop the water from the cup",
+    "options": [
+      "mug",
+      "razor",
+      "oven mitt",
+      "mallet",
+      "sock"
+    ],
+    "target": "water in the cup"
+  },
+  {
+    "task_id": "open/028",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/028.jpg",
+    "instruction": "open the clam",
+    "options": [
+      "clothespin",
+      "rock",
+      "dustpan",
+      "hairbrush",
+      "bowl"
+    ],
+    "target": "clam"
+  },
+  {
+    "task_id": "open/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/040.jpg",
+    "instruction": "open the box",
+    "options": [
+      "stapler",
+      "remote control",
+      "mallet",
+      "screwdriver",
+      "whisk"
+    ],
+    "target": "box"
+  },
+  {
+    "task_id": "open/008",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/008.jpg",
+    "instruction": "open the clam",
+    "options": [
+      "broom",
+      "bowl",
+      "ruler",
+      "hair dryer",
+      "screwdriver"
+    ],
+    "target": "clam"
+  },
+  {
+    "task_id": "pound/006",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/006.jpg",
+    "instruction": "pound the nail",
+    "options": [
+      "hat",
+      "mallet",
+      "fork",
+      "screwdriver",
+      "hairbrush"
+    ],
+    "target": "nail"
+  },
+  {
+    "task_id": "stir/003",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/003.jpg",
+    "instruction": "stir the coffee in the pot",
+    "options": [
+      "hair dryer",
+      "clothespin",
+      "floss container",
+      "pan",
+      "straw"
+    ],
+    "target": "coffee in the pot"
+  },
+  {
+    "task_id": "scoop/018",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/018.jpg",
+    "instruction": "scoop the sause from the pot",
+    "options": [
+      "plate",
+      "oven mitt",
+      "shovel",
+      "measuring cup",
+      "hat"
+    ],
+    "target": "sause in the pot"
+  },
+  {
+    "task_id": "sweep/032",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/032.jpg",
+    "instruction": "sweep the dust",
+    "options": [
+      "book",
+      "wallet",
+      "axe",
+      "tongs",
+      "screw"
+    ],
+    "target": "dust"
+  },
+  {
+    "task_id": "lift/037",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/037.jpg",
+    "instruction": "lift the teapot",
+    "options": [
+      "corkscrew",
+      "toothbrush",
+      "stick",
+      "spray bottle",
+      "coin"
+    ],
+    "target": "teapot"
+  },
+  {
+    "task_id": "pour/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/010.jpg",
+    "instruction": "pour the oil into the pot",
+    "options": [
+      "hammer",
+      "ruler",
+      "coffee pot",
+      "watch",
+      "soap bar"
+    ],
+    "target": "pot"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "sweep/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/002.jpg",
+    "instruction": "sweep the sawdust",
+    "options": [
+      "broom",
+      "floss container",
+      "hanger",
+      "teapot",
+      "card"
+    ],
+    "target": "sawdust"
+  },
+  {
+    "task_id": "cut/013",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/013.jpg",
+    "instruction": "cut the carrot",
+    "options": [
+      "corkscrew",
+      "rolling pin",
+      "glasses",
+      "shovel",
+      "flashlight"
+    ],
+    "target": "carrot"
+  },
+  {
+    "task_id": "lift/038",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/038.jpg",
+    "instruction": "lift the basket",
+    "options": [
+      "pliers",
+      "ladle",
+      "sponge",
+      "keychain",
+      "tongs"
+    ],
+    "target": "basket"
+  },
+  {
+    "task_id": "spread/032",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/032.jpg",
+    "instruction": "spread the frosting on the toast",
+    "options": [
+      "loofah",
+      "grater",
+      "ruler",
+      "fork",
+      "razor"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "pour/021",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/021.jpg",
+    "instruction": "pour the sand into the cup",
+    "options": [
+      "spoon",
+      "axe",
+      "screwdriver",
+      "bucket",
+      "spray bottle"
+    ],
+    "target": "cup"
+  },
+  {
+    "task_id": "pound/047",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/047.jpg",
+    "instruction": "pound the walnut",
+    "options": [
+      "soap bar",
+      "dustpan",
+      "hanger",
+      "book",
+      "allen wrench"
+    ],
+    "target": "walnut"
+  },
+  {
+    "task_id": "stir/015",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/015.jpg",
+    "instruction": "stir the tea in the pot",
+    "options": [
+      "clothespin",
+      "measuring cup",
+      "mug",
+      "fork",
+      "keychain"
+    ],
+    "target": "tea in the pot"
+  },
+  {
+    "task_id": "spread/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/002.jpg",
+    "instruction": "spread the frosting on the pizza dough",
+    "options": [
+      "stapler",
+      "ruler",
+      "soap bar",
+      "tweezers",
+      "tape measure"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "pour/047",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pour/047.jpg",
+    "instruction": "pour the water into the cup",
+    "options": [
+      "tweezers",
+      "card",
+      "sponge",
+      "teapot",
+      "allen wrench"
+    ],
+    "target": "cup"
+  },
+  {
+    "task_id": "open/004",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/004.jpg",
+    "instruction": "open the walnut",
+    "options": [
+      "mug",
+      "hammer",
+      "saw",
+      "plate",
+      "watch"
+    ],
+    "target": "walnut"
+  }
+]

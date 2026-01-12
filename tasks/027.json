@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "open/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/024.jpg",
+    "instruction": "open the can",
+    "options": [
+      "saw",
+      "rock",
+      "grater",
+      "loofah",
+      "rolling pin"
+    ],
+    "target": "can"
+  },
+  {
+    "task_id": "pound/002",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/002.jpg",
+    "instruction": "pound the garlic clove",
+    "options": [
+      "shovel",
+      "glasses",
+      "magnifying glass",
+      "pliers",
+      "mallet"
+    ],
+    "target": "garlic clove"
+  },
+  {
+    "task_id": "stir/016",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/016.jpg",
+    "instruction": "stir the batter in the pot",
+    "options": [
+      "utility knife",
+      "fork",
+      "grater",
+      "pliers",
+      "screwdriver"
+    ],
+    "target": "batter in the pot"
+  },
+  {
+    "task_id": "peel/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/009.jpg",
+    "instruction": "peel the potato",
+    "options": [
+      "coin",
+      "hook",
+      "pencil",
+      "tongs",
+      "hat"
+    ],
+    "target": "potato"
+  },
+  {
+    "task_id": "stir/020",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/020.jpg",
+    "instruction": "stir the cocktail in the bowl",
+    "options": [
+      "shoe",
+      "grater",
+      "spatula",
+      "sock",
+      "ladle"
+    ],
+    "target": "cocktail in the bowl"
+  },
+  {
+    "task_id": "cut/040",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/040.jpg",
+    "instruction": "cut the banana",
+    "options": [
+      "knife",
+      "plate",
+      "pencil",
+      "utility knife",
+      "flashlight"
+    ],
+    "target": "banana"
+  },
+  {
+    "task_id": "spread/037",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/037.jpg",
+    "instruction": "spread the butter on the toast",
+    "options": [
+      "magnifying glass",
+      "sponge",
+      "book",
+      "pencil",
+      "creditcard"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "lift/031",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/031.jpg",
+    "instruction": "lift the mug",
+    "options": [
+      "calculator",
+      "magnifying glass",
+      "allen wrench",
+      "moth",
+      "clothespin"
+    ],
+    "target": "mug"
+  },
+  {
+    "task_id": "sweep/007",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/007.jpg",
+    "instruction": "sweep the confetti",
+    "options": [
+      "stapler",
+      "credit card",
+      "coin",
+      "coffee pot",
+      "belt"
+    ],
+    "target": "confetti"
+  },
+  {
+    "task_id": "open/011",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/011.jpg",
+    "instruction": "open the clam",
+    "options": [
+      "ruler",
+      "bowl",
+      "envelope",
+      "peeler",
+      "hammer"
+    ],
+    "target": "clam"
+  }
+]

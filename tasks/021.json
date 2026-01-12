@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "spread/009",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/009.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "paperball",
+      "pencil",
+      "sponge",
+      "screw",
+      "spoon"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "sweep/048",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/048.jpg",
+    "instruction": "sweep the confetti",
+    "options": [
+      "utility knife",
+      "grater",
+      "pan",
+      "comb",
+      "brush"
+    ],
+    "target": "confetti"
+  },
+  {
+    "task_id": "peel/010",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/010.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "nail clipper",
+      "utility knife",
+      "cup",
+      "clothespin",
+      "sponge"
+    ],
+    "target": "onion"
+  },
+  {
+    "task_id": "pound/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/024.jpg",
+    "instruction": "pound the garlic clove",
+    "options": [
+      "strainer",
+      "measuring cup",
+      "donut",
+      "mallet",
+      "soap bar"
+    ],
+    "target": "garlic clove"
+  },
+  {
+    "task_id": "pound/014",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/014.jpg",
+    "instruction": "pound the button",
+    "options": [
+      "tweezers",
+      "flashlight",
+      "shovel",
+      "grater",
+      "candle"
+    ],
+    "target": "button"
+  },
+  {
+    "task_id": "cut/001",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/001.jpg",
+    "instruction": "cut the pizza",
+    "options": [
+      "mallet",
+      "envelope",
+      "loofah",
+      "shovel",
+      "teapot"
+    ],
+    "target": "pizza"
+  },
+  {
+    "task_id": "spread/024",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/024.jpg",
+    "instruction": "spread the frosting on the toast",
+    "options": [
+      "spatula",
+      "mug",
+      "drill",
+      "remote control",
+      "tweezers"
+    ],
+    "target": "toast"
+  },
+  {
+    "task_id": "scoop/006",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/006.jpg",
+    "instruction": "scoop the soup from the cup",
+    "options": [
+      "paperball",
+      "cup",
+      "hook",
+      "sock",
+      "drill"
+    ],
+    "target": "soup in the cup"
+  },
+  {
+    "task_id": "pound/005",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/005.jpg",
+    "instruction": "pound the garlic clove",
+    "options": [
+      "fork",
+      "book",
+      "remote control",
+      "belt",
+      "screw"
+    ],
+    "target": "garlic clove"
+  },
+  {
+    "task_id": "sweep/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/sweep/026.jpg",
+    "instruction": "sweep the sawdust",
+    "options": [
+      "glasses",
+      "screwdriver",
+      "coin",
+      "comb",
+      "paintbrush"
+    ],
+    "target": "sawdust"
+  }
+]

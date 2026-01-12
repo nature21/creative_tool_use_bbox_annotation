@@ -1,0 +1,132 @@
+[
+  {
+    "task_id": "open/012",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/012.jpg",
+    "instruction": "open the walnut",
+    "options": [
+      "shovel",
+      "pizza",
+      "rolling pin",
+      "spoon",
+      "soap bar"
+    ],
+    "target": "walnut"
+  },
+  {
+    "task_id": "lift/023",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/lift/023.jpg",
+    "instruction": "lift the shopping bag",
+    "options": [
+      "allen wrench",
+      "book",
+      "coffee pot",
+      "pizza",
+      "spoon"
+    ],
+    "target": "shopping bag"
+  },
+  {
+    "task_id": "peel/034",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/peel/034.jpg",
+    "instruction": "peel the onion",
+    "options": [
+      "wrench",
+      "pizza",
+      "perfume bottle",
+      "saw",
+      "oven mitt"
+    ],
+    "target": "onion"
+  },
+  {
+    "task_id": "spread/026",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/spread/026.jpg",
+    "instruction": "spread the cream cheese on the pizza dough",
+    "options": [
+      "scissors",
+      "hair dryer",
+      "spoon",
+      "shoe",
+      "soap bar"
+    ],
+    "target": "pizza dough"
+  },
+  {
+    "task_id": "open/015",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/open/015.jpg",
+    "instruction": "open the bottle",
+    "options": [
+      "remote control",
+      "spray bottle",
+      "pencil",
+      "magnifying glass",
+      "screwdriver"
+    ],
+    "target": "bottle"
+  },
+  {
+    "task_id": "scoop/019",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/scoop/019.jpg",
+    "instruction": "scoop the water from the cup",
+    "options": [
+      "hairbrush",
+      "saw",
+      "ladle",
+      "rolling pin",
+      "perfume bottle"
+    ],
+    "target": "water in the cup"
+  },
+  {
+    "task_id": "cut/031",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/cut/031.jpg",
+    "instruction": "cut the apple",
+    "options": [
+      "hammer",
+      "comb",
+      "knife",
+      "mug",
+      "screwdriver"
+    ],
+    "target": "apple"
+  },
+  {
+    "task_id": "pound/041",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/041.jpg",
+    "instruction": "pound the bug",
+    "options": [
+      "mug",
+      "belt",
+      "spoon",
+      "soap bar",
+      "strainer"
+    ],
+    "target": "bug"
+  },
+  {
+    "task_id": "stir/048",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/stir/048.jpg",
+    "instruction": "stir the coffee in the bowl",
+    "options": [
+      "loofah",
+      "pan",
+      "chopstick",
+      "allen wrench",
+      "saw"
+    ],
+    "target": "coffee in the bowl"
+  },
+  {
+    "task_id": "pound/036",
+    "image_url": "https://raw.githubusercontent.com/nature21/create_tool_use_dataset/main/dataset/pound/036.jpg",
+    "instruction": "pound the nuts",
+    "options": [
+      "whisk",
+      "toothbrush",
+      "grater",
+      "loofah",
+      "axe"
+    ],
+    "target": "nuts"
+  }
+]
